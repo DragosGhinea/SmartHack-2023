@@ -1,8 +1,8 @@
 import axios from 'axios'
 
-const apiKey = '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';
+const apiKey = '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';
 
-async function getIndustryKeywords(inputContent) {
+export async function getIndustryKeywords(inputContent) {
     try {
         const response = await axios.post('https://api.openai.com/v1/chat/completions', {
             model: 'gpt-4',

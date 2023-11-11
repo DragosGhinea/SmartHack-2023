@@ -1,13 +1,19 @@
 import { searchCompanies } from "./companySearch";
-import { filterCities } from "./filterCities";
+//import { getIndustryKeywords } from "./api/openAI";
 import cities from "./cities";
 
-export async function workflow(gpt_input)
+function filterCities(allCities, filters) {
+    return allCities.filter(city => {
+        const scores = city.scores[0];
+
+        return Object.entries(filters).every(([indexName, indexValue]) => scores[indexName] >= indexValue);
+    });
+}
+export async function workflow(CVData)
 {
-    // gpt the input => keywords
     // get filters from frontend
-    console.log(gpt_input);
-    const keywords = ["Software development", "Information technology and services", "Data analysis", "Web development", "Machine Learning and Artificial Intelligence", "Computer Software", "Computer programming", "Database Administration", "3D Modeling", "Education and E-learning"];
+    //const keywords = await getIndustryKeywords(CVData);
+     const keywords = ["software", "developer", "backend", "IT", "Networking", "Cybersecurity"];
     const filters = {"Housing": 7,
                 "Cost of Living": 7,
                 "Commute": 5,
@@ -17,8 +23,8 @@ export async function workflow(gpt_input)
     console.log(viableCities);
     for(const city of viableCities)
     {
-        location = {"country": city.country, "city": city.name};
-        const companies = await searchCompanies(keywords, location);
+        let cityLocation = {"country": city.country, "city": city.name};
+        const companies = await searchCompanies(keywords, cityLocation);
         console.log(companies);
     }
 
