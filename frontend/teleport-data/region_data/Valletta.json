@@ -1,0 +1,436 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:valletta/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:04/",
+        "name": "Birkirkara"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:43/",
+        "name": "Qormi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:35/",
+        "name": "Il-Mosta"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:64/",
+        "name": "\u0126a\u017c-\u017babbar"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:52/",
+        "name": "Saint Paul\u2019s Bay"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:48/",
+        "name": "Saint John"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:08/",
+        "name": "Il-Fgura"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:67/",
+        "name": "I\u017c-\u017bejtun"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:56/",
+        "name": "Tas-Sliema"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:65/",
+        "name": "\u0126a\u017c-\u017bebbu\u0121"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:18/",
+        "name": "Il-\u0126amrun"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:38/",
+        "name": "In-Naxxar"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:32/",
+        "name": "Marsaskala"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:01/",
+        "name": "Attard"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:39/",
+        "name": "Paola"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:68/",
+        "name": "I\u017c-\u017burrieq"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:05/",
+        "name": "Bir\u017cebbu\u0121a"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:58/",
+        "name": "Tarxien"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:55/",
+        "name": "Is-Si\u0121\u0121iewi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:17/",
+        "name": "Il-G\u017cira"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:45/",
+        "name": "Ir-Rabat"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:51/",
+        "name": "Saint Lucia"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:23/",
+        "name": "L-Imsida"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:49/",
+        "name": "Saint Julian"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:60/",
+        "name": "Il-Belt Valletta"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:46/",
+        "name": "Victoria"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:53/",
+        "name": "Saint Venera"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:11/",
+        "name": "G\u0127ajnsielem"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:06/",
+        "name": "Bormla"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:34/",
+        "name": "Il-Mellie\u0127a"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:57/",
+        "name": "Is-Swieqi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:31/",
+        "name": "Il-Marsa"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:30/",
+        "name": "Luqa"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:15/",
+        "name": "\u0126al G\u0127axaq"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:37/",
+        "name": "In-Nadur"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:41/",
+        "name": "Tal-Piet\u00e0"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:61/",
+        "name": "Ix-Xag\u0127ra"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:19/",
+        "name": "L-Iklin"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:62/",
+        "name": "Ix-Xewkija"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:02/",
+        "name": "Balzan"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:40/",
+        "name": "Pembroke"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:33/",
+        "name": "Marsaxlokk"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:16/",
+        "name": "Il-Gudja"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:07/",
+        "name": "Dingli"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:21/",
+        "name": "L-Im\u0121arr"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:26/",
+        "name": "Il-Kalkara"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:25/",
+        "name": "L-Isla"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:03/",
+        "name": "Il-Birgu"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:22/",
+        "name": "L-Imqabba"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:09/",
+        "name": "Il-Furjana"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:44/",
+        "name": "Il-Qrendi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:29/",
+        "name": "Lija"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:24/",
+        "name": "L-Imtarfa"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:28/",
+        "name": "Kirkop"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:13/",
+        "name": "\u0126al G\u0127arg\u0127ur"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:47/",
+        "name": "Safi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:66/",
+        "name": "I\u017c-\u017bebbu\u0121"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:54/",
+        "name": "Sannat"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:59/",
+        "name": "Ta\u2019 Xbiex"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:27/",
+        "name": "Ta\u2019 Ker\u010bem"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:42/",
+        "name": "Il-Qala"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:10/",
+        "name": "Il-Fontana"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:12/",
+        "name": "L-G\u0127arb"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:36/",
+        "name": "Il-Munxar"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:63/",
+        "name": "Ix-Xg\u0127ajra"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:50/",
+        "name": "Saint Lawrence"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/admin1_divisions/geonames:20/",
+        "name": "L-Imdina"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:valletta/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MT/",
+        "name": "Malta"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:valletta/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:2562305/",
+      "name": "Valletta"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:valletta/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2563191/",
+        "name": "Birkirkara"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562629/",
+        "name": "Qormi"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562704/",
+        "name": "Mosta"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562266/",
+        "name": "\u017babbar"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562541/",
+        "name": "San Pawl il-Ba\u0127ar"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2567539/",
+        "name": "Saint John"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2563115/",
+        "name": "Fgura"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562258/",
+        "name": "\u017bejtun"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562501/",
+        "name": "Sliema"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562261/",
+        "name": "Haz-Zebbug"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562998/",
+        "name": "\u0126amrun"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562683/",
+        "name": "Naxxar"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562750/",
+        "name": "Marsaskala"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2563232/",
+        "name": "Attard"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562617/",
+        "name": "Paola"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562250/",
+        "name": "\u017burrieq"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2563189/",
+        "name": "Bir\u017cebbu\u0121a"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562349/",
+        "name": "Tarxien"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562504/",
+        "name": "Si\u0121\u0121iewi"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2562946/",
+        "name": "G\u017cira"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:valletta/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:valletta/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 14.6077,
+      "north": 36.0985,
+      "south": 35.7866,
+      "west": 14.1662
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Valletta, Malta",
+  "is_government_partner": false,
+  "mayor": "Alexiei Dingli",
+  "name": "Valletta",
+  "slug": "valletta",
+  "teleport_city_url": "https://teleport.org/cities/valletta/",
+  "ua_id": "sq6k4"
+}

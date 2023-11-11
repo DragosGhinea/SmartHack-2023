@@ -1,0 +1,96 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hyderabad/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:IN/admin1_divisions/geonames:40/",
+        "name": "Telangana"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hyderabad/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:IN/",
+        "name": "India"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hyderabad/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1269843/",
+      "name": "Hyderabad"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hyderabad/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1269843/",
+        "name": "Hyderabad"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hyderabad/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hyderabad/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 78.656169,
+      "north": 17.607809,
+      "south": 17.216889,
+      "west": 78.159922
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Hyderabad, India",
+  "is_government_partner": false,
+  "mayor": "Bonthu Ram Mohan",
+  "name": "Hyderabad",
+  "slug": "hyderabad",
+  "teleport_city_url": "https://teleport.org/cities/hyderabad/",
+  "ua_id": "tepfc"
+}

@@ -1,0 +1,96 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:sao-paulo/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:BR/admin1_divisions/geonames:27/",
+        "name": "S\u00e3o Paulo"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:sao-paulo/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:SA/",
+      "name": "South America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:BR/",
+        "name": "Brazil"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:sao-paulo/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3448439/",
+      "name": "S\u00e3o Paulo"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:sao-paulo/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3448439/",
+        "name": "S\u00e3o Paulo"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:sao-paulo/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:sao-paulo/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -45.863,
+      "north": -23.125,
+      "south": -24.317,
+      "west": -47.357
+    }
+  },
+  "continent": "South America",
+  "full_name": "Sao Paulo, Brazil",
+  "is_government_partner": false,
+  "mayor": "Jo\u00e3o Doria",
+  "name": "Sao Paulo",
+  "slug": "sao-paulo",
+  "teleport_city_url": "https://teleport.org/cities/sao-paulo/",
+  "ua_id": "6gyf4"
+}

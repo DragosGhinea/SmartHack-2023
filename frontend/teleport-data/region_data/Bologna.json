@@ -1,0 +1,96 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bologna/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:IT/admin1_divisions/geonames:05/",
+        "name": "Emilia-Romagna"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bologna/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:IT/",
+        "name": "Italy"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bologna/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3181928/",
+      "name": "Bologna"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bologna/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3181928/",
+        "name": "Bologna"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bologna/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bologna/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 11.473846,
+      "north": 44.595357,
+      "south": 44.442038,
+      "west": 11.173096
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Bologna, Italy",
+  "is_government_partner": false,
+  "mayor": "Virginio Merola",
+  "name": "Bologna",
+  "slug": "bologna",
+  "teleport_city_url": "https://teleport.org/cities/bologna/",
+  "ua_id": "srbj4"
+}

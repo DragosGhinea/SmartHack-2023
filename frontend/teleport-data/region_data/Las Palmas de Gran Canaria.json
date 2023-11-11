@@ -1,0 +1,95 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:las-palmas-de-gran-canaria/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:ES/admin1_divisions/geonames:53/",
+        "name": "Canary Islands"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:las-palmas-de-gran-canaria/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:ES/",
+        "name": "Spain"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:las-palmas-de-gran-canaria/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:2515270/",
+      "name": "Las Palmas de Gran Canaria"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:las-palmas-de-gran-canaria/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2515270/",
+        "name": "Las Palmas de Gran Canaria"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:las-palmas-de-gran-canaria/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:las-palmas-de-gran-canaria/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -15.396652,
+      "north": 28.169329,
+      "south": 28.06986,
+      "west": -15.489521
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Las Palmas de Gran Canaria, Spain",
+  "is_government_partner": false,
+  "name": "Las Palmas de Gran Canaria",
+  "slug": "las-palmas-de-gran-canaria",
+  "teleport_city_url": "https://teleport.org/cities/las-palmas-de-gran-canaria/",
+  "ua_id": "esvpc"
+}

@@ -1,0 +1,96 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:chiang-mai/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:02/",
+        "name": "Chiang Mai"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:chiang-mai/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/",
+        "name": "Thailand"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:chiang-mai/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1153671/",
+      "name": "Chiang Mai"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:chiang-mai/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1153671/",
+        "name": "Chiang Mai"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:chiang-mai/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:chiang-mai/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 99.104919,
+      "north": 18.874453,
+      "south": 18.700096,
+      "west": 98.861733
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Chiang Mai, Thailand",
+  "is_government_partner": false,
+  "mayor": "Tatsanai Puranupakorn",
+  "name": "Chiang Mai",
+  "slug": "chiang-mai",
+  "teleport_city_url": "https://teleport.org/cities/chiang-mai/",
+  "ua_id": "w5q6u"
+}

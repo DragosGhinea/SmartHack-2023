@@ -1,0 +1,111 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phuket/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:62/",
+        "name": "Phuket"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phuket/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/",
+        "name": "Thailand"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phuket/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1151254/",
+      "name": "Phuket"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phuket/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1151254/",
+        "name": "Phuket"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1117652/",
+        "name": "Ban Talat Yai"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:6696291/",
+        "name": "Wichit"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1153035/",
+        "name": "Kathu"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:7091912/",
+        "name": "Ban Ratsada"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phuket/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phuket/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 98.461848,
+      "north": 8.199914,
+      "south": 7.462156,
+      "west": 98.258009
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Phuket, Thailand",
+  "is_government_partner": false,
+  "name": "Phuket",
+  "slug": "phuket",
+  "teleport_city_url": "https://teleport.org/cities/phuket/",
+  "ua_id": "w1muz"
+}

@@ -1,0 +1,128 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:minsk/scores/"
+    }
+  },
+  "categories": [
+    {
+      "color": "#f3c32c",
+      "name": "Housing",
+      "score_out_of_10": 9.4955
+    },
+    {
+      "color": "#f3d630",
+      "name": "Cost of Living",
+      "score_out_of_10": 9.289000000000001
+    },
+    {
+      "color": "#f4eb33",
+      "name": "Startups",
+      "score_out_of_10": 4.3785
+    },
+    {
+      "color": "#d2ed31",
+      "name": "Venture Capital",
+      "score_out_of_10": 0.0
+    },
+    {
+      "color": "#7adc29",
+      "name": "Travel Connectivity",
+      "score_out_of_10": 3.7664999999999993
+    },
+    {
+      "color": "#36cc24",
+      "name": "Commute",
+      "score_out_of_10": 5.365500000000001
+    },
+    {
+      "color": "#19ad51",
+      "name": "Business Freedom",
+      "score_out_of_10": 5.596333333333332
+    },
+    {
+      "color": "#0d6999",
+      "name": "Safety",
+      "score_out_of_10": 9.038
+    },
+    {
+      "color": "#051fa5",
+      "name": "Healthcare",
+      "score_out_of_10": 4.126666666666666
+    },
+    {
+      "color": "#150e78",
+      "name": "Education",
+      "score_out_of_10": 0.5
+    },
+    {
+      "color": "#3d14a4",
+      "name": "Environmental Quality",
+      "score_out_of_10": 7.04825
+    },
+    {
+      "color": "#5c14a1",
+      "name": "Economy",
+      "score_out_of_10": 3.204
+    },
+    {
+      "color": "#88149f",
+      "name": "Taxation",
+      "score_out_of_10": 5.926
+    },
+    {
+      "color": "#b9117d",
+      "name": "Internet Access",
+      "score_out_of_10": 4.863
+    },
+    {
+      "color": "#d10d54",
+      "name": "Leisure & Culture",
+      "score_out_of_10": 6.949999999999999
+    },
+    {
+      "color": "#e70c26",
+      "name": "Tolerance",
+      "score_out_of_10": 7.4215
+    },
+    {
+      "color": "#f1351b",
+      "name": "Outdoors",
+      "score_out_of_10": 4.906000000000001
+    }
+  ],
+  "summary": "<p>Minsk, Belarus, is characterized by <b>reasonably priced housing</b>.\n\n    \n        According to our city rankings, this is a good place to live with high ratings in <b>cost of living</b>, <b>safety</b> and <b>environmental quality</b>.\n    \n\n    \n</p>\n\n\n    <p>Minsk is one of the top ten city matches for 7.2% of Teleport users.</p>\n",
+  "teleport_city_score": 56.25067567567568
+}

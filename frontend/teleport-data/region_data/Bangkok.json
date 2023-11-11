@@ -1,0 +1,179 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bangkok/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:40/",
+        "name": "Bangkok"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:46/",
+        "name": "Chon Buri"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:42/",
+        "name": "Samut Prakan"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:38/",
+        "name": "Nonthaburi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:52/",
+        "name": "Ratchaburi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:36/",
+        "name": "Phra Nakhon Si Ayutthaya"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:37/",
+        "name": "Sara Buri"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:39/",
+        "name": "Pathum Thani"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:55/",
+        "name": "Samut Sakhon"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:53/",
+        "name": "Nakhon Pathom"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:56/",
+        "name": "Phetchaburi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:47/",
+        "name": "Rayong"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:44/",
+        "name": "Chachoengsao"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:50/",
+        "name": "Kanchanaburi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:51/",
+        "name": "Suphan Buri"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:35/",
+        "name": "Ang Thong"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:34/",
+        "name": "Lop Buri"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:33/",
+        "name": "Sing Buri"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:54/",
+        "name": "Samut Songkhram"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:43/",
+        "name": "Nakhon Nayok"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:32/",
+        "name": "Chai Nat"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/admin1_divisions/geonames:74/",
+        "name": "Prachin Buri"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bangkok/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TH/",
+        "name": "Thailand"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bangkok/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1609350/",
+      "name": "Bangkok"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bangkok/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1609350/",
+        "name": "Bangkok"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bangkok/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bangkok/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 101.337,
+      "north": 15.019,
+      "south": 12.661,
+      "west": 99.569
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Bangkok, Thailand",
+  "is_government_partner": false,
+  "name": "Bangkok",
+  "slug": "bangkok",
+  "teleport_city_url": "https://teleport.org/cities/bangkok/",
+  "ua_id": "w4rqn"
+}

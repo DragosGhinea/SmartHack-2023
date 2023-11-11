@@ -1,0 +1,99 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:warsaw/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PL/admin1_divisions/geonames:78/",
+        "name": "Mazovia"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PL/admin1_divisions/geonames:74/",
+        "name": "\u0141\u00f3d\u017a Voivodeship"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:warsaw/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PL/",
+        "name": "Poland"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:warsaw/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:756135/",
+      "name": "Warsaw"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:warsaw/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:756135/",
+        "name": "Warsaw"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:warsaw/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:warsaw/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 21.692,
+      "north": 52.623,
+      "south": 51.845,
+      "west": 20.341
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Warsaw, Poland",
+  "is_government_partner": false,
+  "name": "Warsaw",
+  "slug": "warsaw",
+  "teleport_city_url": "https://teleport.org/cities/warsaw/",
+  "ua_id": "u3qcn"
+}

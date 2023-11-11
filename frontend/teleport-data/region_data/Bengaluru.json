@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bengaluru/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:IN/admin1_divisions/geonames:19/",
+        "name": "Karnataka"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:IN/admin1_divisions/geonames:25/",
+        "name": "Tamil Nadu"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bengaluru/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:IN/",
+        "name": "India"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bengaluru/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1277333/",
+      "name": "Bengaluru"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bengaluru/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1277333/",
+        "name": "Bengaluru"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bengaluru/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bengaluru/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 77.9878,
+      "north": 13.2934,
+      "south": 12.5854,
+      "west": 77.3067
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Bengaluru, India",
+  "is_government_partner": false,
+  "mayor": "Padmavathi G",
+  "name": "Bengaluru",
+  "slug": "bengaluru",
+  "teleport_city_url": "https://teleport.org/cities/bengaluru/",
+  "ua_id": "tdr1v"
+}

@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ankara/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TR/admin1_divisions/geonames:68/",
+        "name": "Ankara"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TR/admin1_divisions/geonames:79/",
+        "name": "K\u0131r\u0131kkale"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ankara/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TR/",
+        "name": "Turkey"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ankara/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:323786/",
+      "name": "Ankara"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ankara/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:323786/",
+        "name": "Ankara"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ankara/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ankara/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 33.509,
+      "north": 40.372,
+      "south": 39.439,
+      "west": 32.105
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Ankara, Turkey",
+  "is_government_partner": false,
+  "mayor": "Melih G\u00f6k\u00e7ek",
+  "name": "Ankara",
+  "slug": "ankara",
+  "teleport_city_url": "https://teleport.org/cities/ankara/",
+  "ua_id": "sxp75"
+}

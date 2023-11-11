@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:panama/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PA/admin1_divisions/geonames:08/",
+        "name": "Panam\u00e1"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:panama/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PA/",
+        "name": "Panama"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:panama/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3703443/",
+      "name": "Panam\u00e1"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:panama/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3703443/",
+        "name": "Panam\u00e1"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3701329/",
+        "name": "San Miguelito"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:panama/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:panama/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -79.306894,
+      "north": 9.157688,
+      "south": 8.906754,
+      "west": -79.597742
+    }
+  },
+  "continent": "North America",
+  "full_name": "Panama, Panama",
+  "is_government_partner": false,
+  "mayor": "Jos\u00e9 Isabel Bland\u00f3n Figueroa",
+  "name": "Panama",
+  "slug": "panama",
+  "teleport_city_url": "https://teleport.org/cities/panama/",
+  "ua_id": "d1x7n"
+}

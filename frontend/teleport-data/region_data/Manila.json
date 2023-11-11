@@ -1,0 +1,112 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:manila/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PH/admin1_divisions/geonames:NCR/",
+        "name": "Metro Manila"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PH/admin1_divisions/geonames:40/",
+        "name": "Calabarzon"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PH/admin1_divisions/geonames:03/",
+        "name": "Central Luzon"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:manila/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PH/",
+        "name": "Philippines"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:manila/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1701668/",
+      "name": "Manila"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:manila/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1692192/",
+        "name": "Quezon City"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1701668/",
+        "name": "Manila"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1720151/",
+        "name": "Caloocan City"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:manila/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:manila/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 121.128387,
+      "north": 14.733382,
+      "south": 14.477234,
+      "west": 120.933134
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Manila, Philippines",
+  "is_government_partner": false,
+  "mayor": "Joseph Ejercito Estrada",
+  "name": "Manila",
+  "slug": "manila",
+  "teleport_city_url": "https://teleport.org/cities/manila/",
+  "ua_id": "wdw51"
+}

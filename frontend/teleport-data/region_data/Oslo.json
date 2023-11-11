@@ -1,0 +1,120 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:oslo/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:NO/admin1_divisions/geonames:12/",
+        "name": "Oslo"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:NO/admin1_divisions/geonames:13/",
+        "name": "\u00d8stfold"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:NO/admin1_divisions/geonames:20/",
+        "name": "Vestfold"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:NO/admin1_divisions/geonames:01/",
+        "name": "Akershus"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:NO/admin1_divisions/geonames:04/",
+        "name": "Buskerud"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:NO/admin1_divisions/geonames:11/",
+        "name": "Oppland"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:NO/admin1_divisions/geonames:17/",
+        "name": "Telemark"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:oslo/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:NO/",
+        "name": "Norway"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:oslo/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3143244/",
+      "name": "Oslo"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:oslo/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3143244/",
+        "name": "Oslo"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:oslo/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:oslo/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 11.493,
+      "north": 60.424,
+      "south": 58.938,
+      "west": 9.691
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Oslo, Norway",
+  "is_government_partner": false,
+  "mayor": "Marianne Borgen",
+  "name": "Oslo",
+  "slug": "oslo",
+  "teleport_city_url": "https://teleport.org/cities/oslo/",
+  "ua_id": "u4xsu"
+}

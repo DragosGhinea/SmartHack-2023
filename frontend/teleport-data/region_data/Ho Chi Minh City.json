@@ -1,0 +1,111 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ho-chi-minh-city/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:VN/admin1_divisions/geonames:20/",
+        "name": "Ho Chi Minh City"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:VN/admin1_divisions/geonames:43/",
+        "name": "\u0110\u1ed3ng Nai"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:VN/admin1_divisions/geonames:24/",
+        "name": "Long An"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:VN/admin1_divisions/geonames:75/",
+        "name": "B\u00ecnh D\u01b0\u01a1ng"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:VN/admin1_divisions/geonames:49/",
+        "name": "Gia Lai"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ho-chi-minh-city/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:VN/",
+        "name": "Vietnam"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ho-chi-minh-city/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1566083/",
+      "name": "Ho Chi Minh City"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ho-chi-minh-city/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1566083/",
+        "name": "Ho Chi Minh City"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ho-chi-minh-city/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ho-chi-minh-city/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 107.024847,
+      "north": 11.160214,
+      "south": 10.376689,
+      "west": 106.363878
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Ho Chi Minh City, Vietnam",
+  "is_government_partner": false,
+  "name": "Ho Chi Minh City",
+  "slug": "ho-chi-minh-city",
+  "teleport_city_url": "https://teleport.org/cities/ho-chi-minh-city/",
+  "ua_id": "w3gvd"
+}

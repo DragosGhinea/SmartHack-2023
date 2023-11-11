@@ -1,0 +1,128 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:brussels/scores/"
+    }
+  },
+  "categories": [
+    {
+      "color": "#f3c32c",
+      "name": "Housing",
+      "score_out_of_10": 6.3549999999999995
+    },
+    {
+      "color": "#f3d630",
+      "name": "Cost of Living",
+      "score_out_of_10": 4.477
+    },
+    {
+      "color": "#f4eb33",
+      "name": "Startups",
+      "score_out_of_10": 5.6915000000000004
+    },
+    {
+      "color": "#d2ed31",
+      "name": "Venture Capital",
+      "score_out_of_10": 3.3739999999999997
+    },
+    {
+      "color": "#7adc29",
+      "name": "Travel Connectivity",
+      "score_out_of_10": 7.4675
+    },
+    {
+      "color": "#36cc24",
+      "name": "Commute",
+      "score_out_of_10": 5.386750000000001
+    },
+    {
+      "color": "#19ad51",
+      "name": "Business Freedom",
+      "score_out_of_10": 8.876999999999999
+    },
+    {
+      "color": "#0d6999",
+      "name": "Safety",
+      "score_out_of_10": 6.703
+    },
+    {
+      "color": "#051fa5",
+      "name": "Healthcare",
+      "score_out_of_10": 8.816333333333333
+    },
+    {
+      "color": "#150e78",
+      "name": "Education",
+      "score_out_of_10": 6.6530000000000005
+    },
+    {
+      "color": "#3d14a4",
+      "name": "Environmental Quality",
+      "score_out_of_10": 4.591000000000001
+    },
+    {
+      "color": "#5c14a1",
+      "name": "Economy",
+      "score_out_of_10": 4.8115000000000006
+    },
+    {
+      "color": "#88149f",
+      "name": "Taxation",
+      "score_out_of_10": 1.8830000000000002
+    },
+    {
+      "color": "#b9117d",
+      "name": "Internet Access",
+      "score_out_of_10": 7.5715
+    },
+    {
+      "color": "#d10d54",
+      "name": "Leisure & Culture",
+      "score_out_of_10": 8.143999999999998
+    },
+    {
+      "color": "#e70c26",
+      "name": "Tolerance",
+      "score_out_of_10": 6.481
+    },
+    {
+      "color": "#f1351b",
+      "name": "Outdoors",
+      "score_out_of_10": 4.123
+    }
+  ],
+  "summary": "<p>\n    <i>By Katre Liis Kallas</i><br><br>Life in Brussels is a <b>culturally rich</b>, central-European adventure offering a high quality of life. Home to much of the European Union infrastructure, it attracts a diverse population, while maintaining its distinct identity. You can go <b>hiking</b> in the woods, attend various cultural events and talk to people of multiple nationalities in a single day. The key districts of Brussels are well connected by a <b>quality transportation</b> network, but its <b>compact</b> size also allows for navigation by foot and all the opportunities that creates.\n</p>\n\n\n    <p>Brussels is one of the top ten city matches for 0.4% of Teleport users.</p>\n",
+  "teleport_city_score": 61.962837837837846
+}

@@ -1,0 +1,108 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kiev/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UA/admin1_divisions/geonames:12/",
+        "name": "Kyiv City"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UA/admin1_divisions/geonames:13/",
+        "name": "Kyiv"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UA/admin1_divisions/geonames:02/",
+        "name": "Chernihiv"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UA/admin1_divisions/geonames:27/",
+        "name": "Zhytomyr"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kiev/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UA/",
+        "name": "Ukraine"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kiev/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:703448/",
+      "name": "Kyiv"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kiev/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:703448/",
+        "name": "Kyiv"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kiev/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kiev/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 31.8082,
+      "north": 50.9636,
+      "south": 49.8362,
+      "west": 29.2538
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Kiev, Ukraine",
+  "is_government_partner": false,
+  "mayor": "Vitali Klitschko",
+  "name": "Kiev",
+  "slug": "kiev",
+  "teleport_city_url": "https://teleport.org/cities/kiev/",
+  "ua_id": "u8vxn"
+}

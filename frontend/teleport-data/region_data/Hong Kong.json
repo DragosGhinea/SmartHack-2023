@@ -1,0 +1,163 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hong-kong/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:CN/admin1_divisions/geonames:30/",
+        "name": "Guangdong"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:HCW/",
+        "name": "Central and Western"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:KKC/",
+        "name": "Kowloon City"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:NTW/",
+        "name": "Tsuen Wan"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:NYL/",
+        "name": "Yuen Long"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:NIS/",
+        "name": "Islands"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:NST/",
+        "name": "Sha Tin"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:NTM/",
+        "name": "Tuen Mun"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:NTP/",
+        "name": "Tai Po"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:NSK/",
+        "name": "Sai Kung"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:HWC/",
+        "name": "Wanchai"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:KSS/",
+        "name": "Sham Shui Po"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/admin1_divisions/geonames:KWT/",
+        "name": "Wong Tai Sin"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hong-kong/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:CN/",
+        "name": "China"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HK/",
+        "name": "Hong Kong"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MO/",
+        "name": "Macao"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hong-kong/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1819729/",
+      "name": "Hong Kong"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hong-kong/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1809858/",
+        "name": "Guangzhou"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1795565/",
+        "name": "Shenzhen"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1812545/",
+        "name": "Dongguan"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1819729/",
+        "name": "Hong Kong"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hong-kong/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:hong-kong/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 115.125,
+      "north": 23.488,
+      "south": 21.591,
+      "west": 112.78
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Hong Kong, Hong Kong",
+  "is_government_partner": false,
+  "name": "Hong Kong",
+  "slug": "hong-kong",
+  "teleport_city_url": "https://teleport.org/cities/hong-kong/",
+  "ua_id": "wecnt"
+}

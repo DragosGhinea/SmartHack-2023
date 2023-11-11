@@ -1,0 +1,135 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:andorra/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AD/admin1_divisions/geonames:07/",
+        "name": "Andorra la Vella"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AD/admin1_divisions/geonames:08/",
+        "name": "Escaldes-Engordany"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AD/admin1_divisions/geonames:03/",
+        "name": "Encamp"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AD/admin1_divisions/geonames:04/",
+        "name": "La Massana"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AD/admin1_divisions/geonames:06/",
+        "name": "Sant Juli\u00e0 de Loria"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AD/admin1_divisions/geonames:02/",
+        "name": "Canillo"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AD/admin1_divisions/geonames:05/",
+        "name": "Ordino"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:andorra/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AD/",
+        "name": "Andorra"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:andorra/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3041563/",
+      "name": "Andorra la Vella"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:andorra/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3041563/",
+        "name": "Andorra la Vella"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3040051/",
+        "name": "les Escaldes"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3040686/",
+        "name": "Encamp"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3039163/",
+        "name": "Sant Juli\u00e0 de L\u00f2ria"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3040132/",
+        "name": "la Massana"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:andorra/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:andorra/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 1.786639,
+      "north": 42.655791,
+      "south": 42.428749,
+      "west": 1.408705
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Andorra",
+  "is_government_partner": false,
+  "name": "Andorra",
+  "slug": "andorra",
+  "teleport_city_url": "https://teleport.org/cities/andorra/",
+  "ua_id": "sp91f"
+}

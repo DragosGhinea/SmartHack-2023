@@ -1,0 +1,128 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:panama/scores/"
+    }
+  },
+  "categories": [
+    {
+      "color": "#f3c32c",
+      "name": "Housing",
+      "score_out_of_10": 3.1530000000000005
+    },
+    {
+      "color": "#f3d630",
+      "name": "Cost of Living",
+      "score_out_of_10": 0.0
+    },
+    {
+      "color": "#f4eb33",
+      "name": "Startups",
+      "score_out_of_10": 3.5589999999999993
+    },
+    {
+      "color": "#d2ed31",
+      "name": "Venture Capital",
+      "score_out_of_10": 0.0
+    },
+    {
+      "color": "#7adc29",
+      "name": "Travel Connectivity",
+      "score_out_of_10": 2.0020000000000002
+    },
+    {
+      "color": "#36cc24",
+      "name": "Commute",
+      "score_out_of_10": 0.0
+    },
+    {
+      "color": "#19ad51",
+      "name": "Business Freedom",
+      "score_out_of_10": 6.208666666666667
+    },
+    {
+      "color": "#0d6999",
+      "name": "Safety",
+      "score_out_of_10": 6.976000000000001
+    },
+    {
+      "color": "#051fa5",
+      "name": "Healthcare",
+      "score_out_of_10": 5.865666666666667
+    },
+    {
+      "color": "#150e78",
+      "name": "Education",
+      "score_out_of_10": 0.0
+    },
+    {
+      "color": "#3d14a4",
+      "name": "Environmental Quality",
+      "score_out_of_10": 4.38425
+    },
+    {
+      "color": "#5c14a1",
+      "name": "Economy",
+      "score_out_of_10": 6.040500000000001
+    },
+    {
+      "color": "#88149f",
+      "name": "Taxation",
+      "score_out_of_10": 6.947500000000001
+    },
+    {
+      "color": "#b9117d",
+      "name": "Internet Access",
+      "score_out_of_10": 3.1900000000000004
+    },
+    {
+      "color": "#d10d54",
+      "name": "Leisure & Culture",
+      "score_out_of_10": 5.5565
+    },
+    {
+      "color": "#e70c26",
+      "name": "Tolerance",
+      "score_out_of_10": 6.7855
+    },
+    {
+      "color": "#f1351b",
+      "name": "Outdoors",
+      "score_out_of_10": 4.8195
+    }
+  ],
+  "summary": "<p>Panama, Panama, features a <b>very safe living environment</b>.\n\n    \n        Our data reflects that this city has a good ranking in <b>taxation</b> and <b>tolerance</b>.\n    \n\n    \n</p>\n\n",
+  "teleport_city_score": 41.57094594594595
+}

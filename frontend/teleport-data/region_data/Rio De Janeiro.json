@@ -1,0 +1,96 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:rio-de-janeiro/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:BR/admin1_divisions/geonames:21/",
+        "name": "Rio de Janeiro"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:rio-de-janeiro/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:SA/",
+      "name": "South America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:BR/",
+        "name": "Brazil"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:rio-de-janeiro/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3451190/",
+      "name": "Rio de Janeiro"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:rio-de-janeiro/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3451190/",
+        "name": "Rio de Janeiro"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:rio-de-janeiro/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:rio-de-janeiro/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -42.751,
+      "north": -22.378,
+      "south": -23.216,
+      "west": -43.86
+    }
+  },
+  "continent": "South America",
+  "full_name": "Rio De Janeiro, Brazil",
+  "is_government_partner": false,
+  "mayor": "Marcelo Crivella",
+  "name": "Rio De Janeiro",
+  "slug": "rio-de-janeiro",
+  "teleport_city_url": "https://teleport.org/cities/rio-de-janeiro/",
+  "ua_id": "75cm8"
+}

@@ -1,0 +1,96 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:saskatoon/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:CA/admin1_divisions/geonames:11/",
+        "name": "Saskatchewan"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:saskatoon/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:CA/",
+        "name": "Canada"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:saskatoon/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:6141256/",
+      "name": "Saskatoon"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:saskatoon/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:6141256/",
+        "name": "Saskatoon"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:saskatoon/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:saskatoon/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -106.517579,
+      "north": 52.209761,
+      "south": 52.069548,
+      "west": -106.775875
+    }
+  },
+  "continent": "North America",
+  "full_name": "Saskatoon, Canada",
+  "is_government_partner": false,
+  "mayor": "Charlie Clark",
+  "name": "Saskatoon",
+  "slug": "saskatoon",
+  "teleport_city_url": "https://teleport.org/cities/saskatoon/",
+  "ua_id": "c9k0s"
+}

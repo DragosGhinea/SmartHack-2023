@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:zagreb/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HR/admin1_divisions/geonames:21/",
+        "name": "City of Zagreb"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HR/admin1_divisions/geonames:20/",
+        "name": "Zagreba\u010dka"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:zagreb/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:HR/",
+        "name": "Croatia"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:zagreb/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3186886/",
+      "name": "Zagreb"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:zagreb/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3186886/",
+        "name": "Zagreb"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:zagreb/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:zagreb/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 16.2124,
+      "north": 45.9168,
+      "south": 45.6956,
+      "west": 15.7468
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Zagreb, Croatia",
+  "is_government_partner": false,
+  "mayor": "Milan Bandi\u0107",
+  "name": "Zagreb",
+  "slug": "zagreb",
+  "teleport_city_url": "https://teleport.org/cities/zagreb/",
+  "ua_id": "u25ke"
+}

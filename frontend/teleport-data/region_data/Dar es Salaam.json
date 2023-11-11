@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dar-es-salaam/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TZ/admin1_divisions/geonames:23/",
+        "name": "Dar es Salaam"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TZ/admin1_divisions/geonames:02/",
+        "name": "Pwani"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dar-es-salaam/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AF/",
+      "name": "Africa"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:TZ/",
+        "name": "Tanzania"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dar-es-salaam/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:160263/",
+      "name": "Dar es Salaam"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dar-es-salaam/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:160263/",
+        "name": "Dar es Salaam"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dar-es-salaam/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dar-es-salaam/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 39.481711,
+      "north": -6.589154,
+      "south": -6.950283,
+      "west": 39.026871
+    }
+  },
+  "continent": "Africa",
+  "full_name": "Dar es Salaam, Tanzania",
+  "is_government_partner": false,
+  "mayor": "Isaya Mwita",
+  "name": "Dar es Salaam",
+  "slug": "dar-es-salaam",
+  "teleport_city_url": "https://teleport.org/cities/dar-es-salaam/",
+  "ua_id": "kygcj"
+}

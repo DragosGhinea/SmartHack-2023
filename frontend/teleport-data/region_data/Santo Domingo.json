@@ -1,0 +1,104 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:santo-domingo/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:DO/admin1_divisions/geonames:34/",
+        "name": "Nacional"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:DO/admin1_divisions/geonames:37/",
+        "name": "Santo Domingo"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:DO/admin1_divisions/geonames:33/",
+        "name": "San Crist\u00f3bal"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:santo-domingo/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:DO/",
+        "name": "Dominican Republic"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:santo-domingo/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3492908/",
+      "name": "Santo Domingo"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:santo-domingo/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3492908/",
+        "name": "Santo Domingo"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:santo-domingo/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:santo-domingo/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -69.787903,
+      "north": 18.569457,
+      "south": 18.395579,
+      "west": -70.072861
+    }
+  },
+  "continent": "North America",
+  "full_name": "Santo Domingo, Dominican Republic",
+  "is_government_partner": false,
+  "mayor": "David Collado",
+  "name": "Santo Domingo",
+  "slug": "santo-domingo",
+  "teleport_city_url": "https://teleport.org/cities/santo-domingo/",
+  "ua_id": "d7q1p"
+}

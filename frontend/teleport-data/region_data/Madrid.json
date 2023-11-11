@@ -1,0 +1,104 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:madrid/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:ES/admin1_divisions/geonames:29/",
+        "name": "Madrid"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:ES/admin1_divisions/geonames:54/",
+        "name": "Castille-La Mancha"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:ES/admin1_divisions/geonames:55/",
+        "name": "Castille and Le\u00f3n"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:madrid/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:ES/",
+        "name": "Spain"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:madrid/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3117735/",
+      "name": "Madrid"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:madrid/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3117735/",
+        "name": "Madrid"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:madrid/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:madrid/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -3.057,
+      "north": 41.03,
+      "south": 39.8,
+      "west": -4.293
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Madrid, Spain",
+  "is_government_partner": false,
+  "mayor": "Manuela Carmena",
+  "name": "Madrid",
+  "slug": "madrid",
+  "teleport_city_url": "https://teleport.org/cities/madrid/",
+  "ua_id": "ezjmg"
+}

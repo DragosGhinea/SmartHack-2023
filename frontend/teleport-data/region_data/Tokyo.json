@@ -1,0 +1,131 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tokyo/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:JP/admin1_divisions/geonames:40/",
+        "name": "Tokyo"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:JP/admin1_divisions/geonames:19/",
+        "name": "Kanagawa"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:JP/admin1_divisions/geonames:34/",
+        "name": "Saitama"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:JP/admin1_divisions/geonames:04/",
+        "name": "Chiba"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:JP/admin1_divisions/geonames:14/",
+        "name": "Ibaraki"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:JP/admin1_divisions/geonames:10/",
+        "name": "Gunma"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:JP/admin1_divisions/geonames:38/",
+        "name": "Tochigi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:JP/admin1_divisions/geonames:37/",
+        "name": "Shizuoka"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:JP/admin1_divisions/geonames:46/",
+        "name": "Yamanashi"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tokyo/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:JP/",
+        "name": "Japan"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tokyo/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1850147/",
+      "name": "Tokyo"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tokyo/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1850147/",
+        "name": "Tokyo"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1848354/",
+        "name": "Yokohama"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tokyo/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tokyo/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 141.152,
+      "north": 36.558,
+      "south": 34.867,
+      "west": 138.779
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Tokyo, Japan",
+  "is_government_partner": false,
+  "name": "Tokyo",
+  "slug": "tokyo",
+  "teleport_city_url": "https://teleport.org/cities/tokyo/",
+  "ua_id": "xn774"
+}

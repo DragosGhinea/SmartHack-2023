@@ -1,0 +1,128 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kiev/scores/"
+    }
+  },
+  "categories": [
+    {
+      "color": "#f3c32c",
+      "name": "Housing",
+      "score_out_of_10": 9.0845
+    },
+    {
+      "color": "#f3d630",
+      "name": "Cost of Living",
+      "score_out_of_10": 9.817
+    },
+    {
+      "color": "#f4eb33",
+      "name": "Startups",
+      "score_out_of_10": 4.0495
+    },
+    {
+      "color": "#d2ed31",
+      "name": "Venture Capital",
+      "score_out_of_10": 2.545
+    },
+    {
+      "color": "#7adc29",
+      "name": "Travel Connectivity",
+      "score_out_of_10": 5.4875
+    },
+    {
+      "color": "#36cc24",
+      "name": "Commute",
+      "score_out_of_10": 5.16075
+    },
+    {
+      "color": "#19ad51",
+      "name": "Business Freedom",
+      "score_out_of_10": 4.525333333333333
+    },
+    {
+      "color": "#0d6999",
+      "name": "Safety",
+      "score_out_of_10": 7.2555000000000005
+    },
+    {
+      "color": "#051fa5",
+      "name": "Healthcare",
+      "score_out_of_10": 3.6956666666666655
+    },
+    {
+      "color": "#150e78",
+      "name": "Education",
+      "score_out_of_10": 0.5
+    },
+    {
+      "color": "#3d14a4",
+      "name": "Environmental Quality",
+      "score_out_of_10": 3.6665
+    },
+    {
+      "color": "#5c14a1",
+      "name": "Economy",
+      "score_out_of_10": 1.2755
+    },
+    {
+      "color": "#88149f",
+      "name": "Taxation",
+      "score_out_of_10": 5.478
+    },
+    {
+      "color": "#b9117d",
+      "name": "Internet Access",
+      "score_out_of_10": 6.041499999999999
+    },
+    {
+      "color": "#d10d54",
+      "name": "Leisure & Culture",
+      "score_out_of_10": 8.419500000000001
+    },
+    {
+      "color": "#e70c26",
+      "name": "Tolerance",
+      "score_out_of_10": 6.827
+    },
+    {
+      "color": "#f1351b",
+      "name": "Outdoors",
+      "score_out_of_10": 5.348999999999999
+    }
+  ],
+  "summary": "<p>\n    <i>By Andrii Gorbenko</i><br><br>With a history going back more than 1500 years, Kiev today is an economic and industrial center of Eastern Europe. Known for its river-front location and historical landmarks, Kiev continues to develop, and boasts several international companies serving Ukraine's large domestic market. Its <b>expansive infrastructure</b> offers some of the cheapest metro services in Europe, there are great leisure-time opportunities and the overall <b>cost of living is very reasonable</b>.\n</p>\n\n\n    <p>Kiev is one of the top ten city matches for 4.4% of Teleport users.</p>\n",
+  "teleport_city_score": 52.16364864864864
+}

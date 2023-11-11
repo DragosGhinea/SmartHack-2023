@@ -1,0 +1,128 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:zurich/scores/"
+    }
+  },
+  "categories": [
+    {
+      "color": "#f3c32c",
+      "name": "Housing",
+      "score_out_of_10": 1.473
+    },
+    {
+      "color": "#f3d630",
+      "name": "Cost of Living",
+      "score_out_of_10": 1.0
+    },
+    {
+      "color": "#f4eb33",
+      "name": "Startups",
+      "score_out_of_10": 6.203500000000001
+    },
+    {
+      "color": "#d2ed31",
+      "name": "Venture Capital",
+      "score_out_of_10": 3.872
+    },
+    {
+      "color": "#7adc29",
+      "name": "Travel Connectivity",
+      "score_out_of_10": 7.733499999999999
+    },
+    {
+      "color": "#36cc24",
+      "name": "Commute",
+      "score_out_of_10": 5.839499999999999
+    },
+    {
+      "color": "#19ad51",
+      "name": "Business Freedom",
+      "score_out_of_10": 8.888
+    },
+    {
+      "color": "#0d6999",
+      "name": "Safety",
+      "score_out_of_10": 9.0665
+    },
+    {
+      "color": "#051fa5",
+      "name": "Healthcare",
+      "score_out_of_10": 9.739333333333333
+    },
+    {
+      "color": "#150e78",
+      "name": "Education",
+      "score_out_of_10": 7.2875
+    },
+    {
+      "color": "#3d14a4",
+      "name": "Environmental Quality",
+      "score_out_of_10": 8.642999999999999
+    },
+    {
+      "color": "#5c14a1",
+      "name": "Economy",
+      "score_out_of_10": 6.552
+    },
+    {
+      "color": "#88149f",
+      "name": "Taxation",
+      "score_out_of_10": 6.4285000000000005
+    },
+    {
+      "color": "#b9117d",
+      "name": "Internet Access",
+      "score_out_of_10": 7.2675
+    },
+    {
+      "color": "#d10d54",
+      "name": "Leisure & Culture",
+      "score_out_of_10": 4.9655000000000005
+    },
+    {
+      "color": "#e70c26",
+      "name": "Tolerance",
+      "score_out_of_10": 8.7845
+    },
+    {
+      "color": "#f1351b",
+      "name": "Outdoors",
+      "score_out_of_10": 5.401
+    }
+  ],
+  "summary": "<p>\n    Zurich is one of the wealthiest but also one of the most expensive cities in Europe. It is a <b>leader</b> in the world's financial industry as well as an international hub for banking. Zurich is also the center for development and <b>scientific research</b> with two world-class universities within its boundaries. The city is extremely <b>well-connected</b> through public transport and offers an exceptionally <b>high quality of life</b>.\n</p>\n\n\n    <p>Zurich is one of the top ten city matches for 13.3% of Teleport users.</p>\n",
+  "teleport_city_score": 68.80797297297298
+}

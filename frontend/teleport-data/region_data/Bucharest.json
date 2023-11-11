@@ -1,0 +1,120 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bucharest/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RO/admin1_divisions/geonames:10/",
+        "name": "Bucure\u015fti"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RO/admin1_divisions/geonames:43/",
+        "name": "Ilfov"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RO/admin1_divisions/geonames:42/",
+        "name": "Giurgiu"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RO/admin1_divisions/geonames:16/",
+        "name": "D\u00e2mbovi\u0163a"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RO/admin1_divisions/geonames:41/",
+        "name": "C\u0103l\u0103ra\u015fi"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RO/admin1_divisions/geonames:22/",
+        "name": "Ialomi\u0163a"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RO/admin1_divisions/geonames:35/",
+        "name": "Teleorman"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bucharest/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RO/",
+        "name": "Romania"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bucharest/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:683506/",
+      "name": "Bucharest"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bucharest/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:683506/",
+        "name": "Bucharest"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bucharest/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:bucharest/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 26.756,
+      "north": 44.729,
+      "south": 44.141,
+      "west": 25.542
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Bucharest, Romania",
+  "is_government_partner": false,
+  "mayor": "Gabriela Firea",
+  "name": "Bucharest",
+  "slug": "bucharest",
+  "teleport_city_url": "https://teleport.org/cities/bucharest/",
+  "ua_id": "sxfsc"
+}

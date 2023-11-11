@@ -1,0 +1,108 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:washington-dc/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/admin1_divisions/geonames:MD/",
+        "name": "Maryland"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/admin1_divisions/geonames:VA/",
+        "name": "Virginia"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/admin1_divisions/geonames:DC/",
+        "name": "Washington, D.C."
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:washington-dc/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/",
+        "name": "United States"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:washington-dc/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:4140963/",
+      "name": "Washington, D.C."
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:washington-dc/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4140963/",
+        "name": "Washington, D.C."
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4744709/",
+        "name": "Arlington"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:washington-dc/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:washington-dc/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -76.455917,
+      "north": 39.1487,
+      "south": 38.624918,
+      "west": -77.616348
+    }
+  },
+  "continent": "North America",
+  "full_name": "Washington, District of Columbia",
+  "is_government_partner": false,
+  "mayor": "Muriel Bowser",
+  "name": "Washington, D.C.",
+  "slug": "washington-dc",
+  "teleport_city_url": "https://teleport.org/cities/washington-dc/",
+  "ua_id": "dqcjq"
+}

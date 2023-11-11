@@ -1,0 +1,112 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vancouver/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:CA/admin1_divisions/geonames:02/",
+        "name": "British Columbia"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/admin1_divisions/geonames:WA/",
+        "name": "Washington"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vancouver/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:CA/",
+        "name": "Canada"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/",
+        "name": "United States"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vancouver/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:6173331/",
+      "name": "Vancouver"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vancouver/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:6173331/",
+        "name": "Vancouver"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:6159905/",
+        "name": "Surrey"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:5911606/",
+        "name": "Burnaby"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vancouver/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vancouver/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -121.777,
+      "north": 49.475,
+      "south": 48.669,
+      "west": -123.513
+    }
+  },
+  "continent": "North America",
+  "full_name": "Vancouver, Canada",
+  "is_government_partner": false,
+  "mayor": "Gregor Robertson",
+  "name": "Vancouver",
+  "slug": "vancouver",
+  "teleport_city_url": "https://teleport.org/cities/vancouver/",
+  "ua_id": "c2b2n"
+}

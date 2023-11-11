@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:liverpool/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:GB/admin1_divisions/geonames:ENG/",
+        "name": "England"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:liverpool/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:GB/",
+        "name": "United Kingdom"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:liverpool/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:2644210/",
+      "name": "Liverpool"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:liverpool/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2644210/",
+        "name": "Liverpool"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2655613/",
+        "name": "Birkenhead"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:liverpool/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:liverpool/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -2.812938,
+      "north": 53.503907,
+      "south": 53.32021,
+      "west": -3.13797
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Liverpool, United Kingdom",
+  "is_government_partner": false,
+  "mayor": "Mayor and Cabinet",
+  "name": "Liverpool",
+  "slug": "liverpool",
+  "teleport_city_url": "https://teleport.org/cities/liverpool/",
+  "ua_id": "gcmzu"
+}

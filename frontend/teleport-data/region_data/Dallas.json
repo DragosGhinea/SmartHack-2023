@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dallas/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/admin1_divisions/geonames:TX/",
+        "name": "Texas"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dallas/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/",
+        "name": "United States"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dallas/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:4684888/",
+      "name": "Dallas"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dallas/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4684888/",
+        "name": "Dallas"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4691930/",
+        "name": "Fort Worth"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dallas/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dallas/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -96.113,
+      "north": 33.431,
+      "south": 32.166,
+      "west": -97.789
+    }
+  },
+  "continent": "North America",
+  "full_name": "Dallas, Texas",
+  "is_government_partner": false,
+  "mayor": "Mike Rawlings",
+  "name": "Dallas",
+  "slug": "dallas",
+  "teleport_city_url": "https://teleport.org/cities/dallas/",
+  "ua_id": "9vg4m"
+}

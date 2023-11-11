@@ -1,0 +1,99 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phnom-penh/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:KH/admin1_divisions/geonames:22/",
+        "name": "Phnom Penh"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:KH/admin1_divisions/geonames:07/",
+        "name": "Kandal"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phnom-penh/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:KH/",
+        "name": "Cambodia"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phnom-penh/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1821306/",
+      "name": "Phnom Penh"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phnom-penh/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1821306/",
+        "name": "Phnom Penh"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phnom-penh/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:phnom-penh/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 105.067577,
+      "north": 11.736328,
+      "south": 11.422401,
+      "west": 104.712796
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Phnom Penh, Cambodia",
+  "is_government_partner": false,
+  "name": "Phnom Penh",
+  "slug": "phnom-penh",
+  "teleport_city_url": "https://teleport.org/cities/phnom-penh/",
+  "ua_id": "w649g"
+}

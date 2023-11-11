@@ -1,0 +1,107 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dubai/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AE/admin1_divisions/geonames:03/",
+        "name": "Dubai"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AE/admin1_divisions/geonames:06/",
+        "name": "Ash Sh\u0101riqah"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AE/admin1_divisions/geonames:02/",
+        "name": "Ajman"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dubai/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AE/",
+        "name": "United Arab Emirates"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dubai/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:292223/",
+      "name": "Dubai"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dubai/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:292223/",
+        "name": "Dubai"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:292672/",
+        "name": "Sharjah"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dubai/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:dubai/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 55.6924,
+      "north": 25.4978,
+      "south": 24.7914,
+      "west": 54.8961
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Dubai, United Arab Emirates",
+  "is_government_partner": false,
+  "name": "Dubai",
+  "slug": "dubai",
+  "teleport_city_url": "https://teleport.org/cities/dubai/",
+  "ua_id": "thrrd"
+}

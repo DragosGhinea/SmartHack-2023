@@ -1,0 +1,104 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:lima/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PE/admin1_divisions/geonames:LMA/",
+        "name": "Lima"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PE/admin1_divisions/geonames:07/",
+        "name": "Callao"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PE/admin1_divisions/geonames:15/",
+        "name": "Lima region"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:lima/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:SA/",
+      "name": "South America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PE/",
+        "name": "Peru"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:lima/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3936456/",
+      "name": "Lima"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:lima/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3936456/",
+        "name": "Lima"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:lima/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:lima/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -76.865501,
+      "north": -11.80317,
+      "south": -12.263186,
+      "west": -77.180672
+    }
+  },
+  "continent": "South America",
+  "full_name": "Lima, Peru",
+  "is_government_partner": false,
+  "mayor": "Luis Casta\u00f1eda Lossio",
+  "name": "Lima",
+  "slug": "lima",
+  "teleport_city_url": "https://teleport.org/cities/lima/",
+  "ua_id": "6mc5r"
+}

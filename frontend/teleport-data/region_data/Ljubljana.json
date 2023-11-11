@@ -1,0 +1,128 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ljubljana/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SI/admin1_divisions/geonames:61/",
+        "name": "Ljubljana"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SI/admin1_divisions/geonames:G7/",
+        "name": "Dom\u017eale"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SI/admin1_divisions/geonames:71/",
+        "name": "Medvode"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SI/admin1_divisions/geonames:09/",
+        "name": "Brezovica"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SI/admin1_divisions/geonames:C1/",
+        "name": "\u0160kofljica"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SI/admin1_divisions/geonames:M8/",
+        "name": "Trzin"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SI/admin1_divisions/geonames:32/",
+        "name": "Grosuplje"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SI/admin1_divisions/geonames:77/",
+        "name": "Morav\u010de"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SI/admin1_divisions/geonames:22/",
+        "name": "Dol pri Ljubljani"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ljubljana/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SI/",
+        "name": "Slovenia"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ljubljana/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3196359/",
+      "name": "Ljubljana"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ljubljana/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3196359/",
+        "name": "Ljubljana"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ljubljana/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:ljubljana/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 14.76,
+      "north": 46.147,
+      "south": 45.973,
+      "west": 14.4
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Ljubljana, Slovenia",
+  "is_government_partner": false,
+  "mayor": "Zoran Jankovi\u0107",
+  "name": "Ljubljana",
+  "slug": "ljubljana",
+  "teleport_city_url": "https://teleport.org/cities/ljubljana/",
+  "ua_id": "u24mf"
+}

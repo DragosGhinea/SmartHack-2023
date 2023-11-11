@@ -1,0 +1,108 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:auckland/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:NZ/admin1_divisions/geonames:E7/",
+        "name": "Auckland"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:auckland/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:OC/",
+      "name": "Oceania"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:NZ/",
+        "name": "New Zealand"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:auckland/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:2193733/",
+      "name": "Auckland"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:auckland/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2193733/",
+        "name": "Auckland"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2187404/",
+        "name": "Manukau City"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:7302484/",
+        "name": "Waitakere"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2185964/",
+        "name": "North Shore"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:auckland/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:auckland/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 175.314,
+      "north": -36.41,
+      "south": -37.348,
+      "west": 174.223
+    }
+  },
+  "continent": "Oceania",
+  "full_name": "Auckland, New Zealand",
+  "is_government_partner": false,
+  "mayor": "Phil Goff",
+  "name": "Auckland",
+  "slug": "auckland",
+  "teleport_city_url": "https://teleport.org/cities/auckland/",
+  "ua_id": "rckq2"
+}

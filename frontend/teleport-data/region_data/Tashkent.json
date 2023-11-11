@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tashkent/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UZ/admin1_divisions/geonames:13/",
+        "name": "Toshkent Shahri"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UZ/admin1_divisions/geonames:14/",
+        "name": "Toshkent"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tashkent/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UZ/",
+        "name": "Uzbekistan"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tashkent/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1512569/",
+      "name": "Tashkent"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tashkent/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1512569/",
+        "name": "Tashkent"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tashkent/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:tashkent/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 69.412222,
+      "north": 41.398558,
+      "south": 41.166637,
+      "west": 69.146511
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Tashkent, Uzbekistan",
+  "is_government_partner": false,
+  "mayor": "Rakhmonbek Usmonov",
+  "name": "Tashkent",
+  "slug": "tashkent",
+  "teleport_city_url": "https://teleport.org/cities/tashkent/",
+  "ua_id": "tx34z"
+}

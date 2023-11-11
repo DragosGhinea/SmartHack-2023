@@ -1,0 +1,104 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vienna/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AT/admin1_divisions/geonames:09/",
+        "name": "Vienna"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AT/admin1_divisions/geonames:03/",
+        "name": "Lower Austria"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AT/admin1_divisions/geonames:01/",
+        "name": "Burgenland"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vienna/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AT/",
+        "name": "Austria"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vienna/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:2761369/",
+      "name": "Vienna"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vienna/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2761369/",
+        "name": "Vienna"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vienna/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:vienna/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 16.8242,
+      "north": 48.4283,
+      "south": 47.7292,
+      "west": 15.9302
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Vienna, Austria",
+  "is_government_partner": false,
+  "mayor": "Michael H\u00e4upl",
+  "name": "Vienna",
+  "slug": "vienna",
+  "teleport_city_url": "https://teleport.org/cities/vienna/",
+  "ua_id": "u2edk"
+}

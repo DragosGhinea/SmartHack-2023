@@ -1,0 +1,116 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:berlin/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:DE/admin1_divisions/geonames:16/",
+        "name": "Berlin"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:DE/admin1_divisions/geonames:11/",
+        "name": "Brandenburg"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:DE/admin1_divisions/geonames:14/",
+        "name": "Saxony-Anhalt"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PL/admin1_divisions/geonames:76/",
+        "name": "Lubusz"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PL/admin1_divisions/geonames:87/",
+        "name": "West Pomerania"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:berlin/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:DE/",
+        "name": "Germany"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PL/",
+        "name": "Poland"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:berlin/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:2950159/",
+      "name": "Berlin"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:berlin/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:2950159/",
+        "name": "Berlin"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:berlin/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:berlin/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 14.699,
+      "north": 52.994,
+      "south": 51.849,
+      "west": 12.26
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Berlin, Germany",
+  "is_government_partner": false,
+  "mayor": "Michael M\u00fcller",
+  "name": "Berlin",
+  "slug": "berlin",
+  "teleport_city_url": "https://teleport.org/cities/berlin/",
+  "ua_id": "u33db"
+}

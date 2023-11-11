@@ -1,0 +1,132 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kuala-lumpur/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MY/admin1_divisions/geonames:12/",
+        "name": "Selangor"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MY/admin1_divisions/geonames:14/",
+        "name": "Kuala Lumpur"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MY/admin1_divisions/geonames:05/",
+        "name": "Negeri Sembilan"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MY/admin1_divisions/geonames:07/",
+        "name": "Perak"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MY/admin1_divisions/geonames:17/",
+        "name": "Putrajaya"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MY/admin1_divisions/geonames:06/",
+        "name": "Pahang"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kuala-lumpur/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:MY/",
+        "name": "Malaysia"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kuala-lumpur/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:1735161/",
+      "name": "Kuala Lumpur"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kuala-lumpur/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1735161/",
+        "name": "Kuala Lumpur"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1732905/",
+        "name": "Klang"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1771023/",
+        "name": "Kampung Baru Subang"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:8504423/",
+        "name": "Subang Jaya"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:1735158/",
+        "name": "Petaling Jaya"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kuala-lumpur/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:kuala-lumpur/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 102.0355,
+      "north": 3.401,
+      "south": 2.6426,
+      "west": 101.2473
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Kuala Lumpur, Malaysia",
+  "is_government_partner": false,
+  "mayor": "Mhd Amin Nordin Abdul Aziz",
+  "name": "Kuala Lumpur",
+  "slug": "kuala-lumpur",
+  "teleport_city_url": "https://teleport.org/cities/kuala-lumpur/",
+  "ua_id": "w283c"
+}

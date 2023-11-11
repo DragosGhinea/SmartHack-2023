@@ -1,0 +1,96 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cluj-napoca/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RO/admin1_divisions/geonames:13/",
+        "name": "Cluj"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cluj-napoca/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RO/",
+        "name": "Romania"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cluj-napoca/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:681290/",
+      "name": "Cluj-Napoca"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cluj-napoca/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:681290/",
+        "name": "Cluj-Napoca"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cluj-napoca/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cluj-napoca/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 23.754845,
+      "north": 46.852209,
+      "south": 46.699141,
+      "west": 23.462334
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Cluj-Napoca, Romania",
+  "is_government_partner": false,
+  "mayor": "Emil Boc",
+  "name": "Cluj-Napoca",
+  "slug": "cluj-napoca",
+  "teleport_city_url": "https://teleport.org/cities/cluj-napoca/",
+  "ua_id": "u82f1"
+}

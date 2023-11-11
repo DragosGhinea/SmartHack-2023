@@ -1,0 +1,108 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-juan/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PR/admin1_divisions/geonames:127/",
+        "name": "San Juan"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PR/admin1_divisions/geonames:061/",
+        "name": "Guaynabo"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PR/admin1_divisions/geonames:139/",
+        "name": "Trujillo Alto"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PR/admin1_divisions/geonames:033/",
+        "name": "Catano"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-juan/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:PR/",
+        "name": "Puerto Rico"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-juan/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:4568127/",
+      "name": "San Juan"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-juan/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4568127/",
+        "name": "San Juan"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-juan/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-juan/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -65.969467,
+      "north": 18.48547,
+      "south": 18.297648,
+      "west": -66.134949
+    }
+  },
+  "continent": "North America",
+  "full_name": "San Juan, Puerto Rico",
+  "is_government_partner": false,
+  "mayor": "Carmen Yul\u00edn Cruz",
+  "name": "San Juan",
+  "slug": "san-juan",
+  "teleport_city_url": "https://teleport.org/cities/san-juan/",
+  "ua_id": "de2cp"
+}

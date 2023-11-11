@@ -1,0 +1,112 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:miami/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/admin1_divisions/geonames:FL/",
+        "name": "Florida"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:miami/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/",
+        "name": "United States"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:miami/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:4164138/",
+      "name": "Miami"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:miami/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4164138/",
+        "name": "Miami"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4158476/",
+        "name": "Hialeah"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4155966/",
+        "name": "Fort Lauderdale"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4168139/",
+        "name": "Pembroke Pines"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4158928/",
+        "name": "Hollywood"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:miami/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:miami/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -79.774,
+      "north": 26.912,
+      "south": 25.291,
+      "west": -80.683
+    }
+  },
+  "continent": "North America",
+  "full_name": "Miami, Florida",
+  "is_government_partner": false,
+  "mayor": "Tom\u00e1s Regalado",
+  "name": "Miami",
+  "slug": "miami",
+  "teleport_city_url": "https://teleport.org/cities/miami/",
+  "ua_id": "dhwfx"
+}

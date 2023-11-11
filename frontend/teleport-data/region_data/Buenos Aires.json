@@ -1,0 +1,107 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:buenos-aires/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AR/admin1_divisions/geonames:07/",
+        "name": "Buenos Aires F.D."
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AR/admin1_divisions/geonames:01/",
+        "name": "Buenos Aires"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UY/admin1_divisions/geonames:04/",
+        "name": "Colonia"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:buenos-aires/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:SA/",
+      "name": "South America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:AR/",
+        "name": "Argentina"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UY/",
+        "name": "Uruguay"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:buenos-aires/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3435910/",
+      "name": "Buenos Aires"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:buenos-aires/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3435910/",
+        "name": "Buenos Aires"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:buenos-aires/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:buenos-aires/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -57.833,
+      "north": -34.219,
+      "south": -35.139,
+      "west": -59.258
+    }
+  },
+  "continent": "South America",
+  "full_name": "Buenos Aires, Argentina",
+  "is_government_partner": false,
+  "name": "Buenos Aires",
+  "slug": "buenos-aires",
+  "teleport_city_url": "https://teleport.org/cities/buenos-aires/",
+  "ua_id": "69y7n"
+}

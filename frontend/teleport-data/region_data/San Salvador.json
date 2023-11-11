@@ -1,0 +1,104 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-salvador/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SV/admin1_divisions/geonames:10/",
+        "name": "San Salvador"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SV/admin1_divisions/geonames:05/",
+        "name": "La Libertad"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-salvador/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:SV/",
+        "name": "El Salvador"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-salvador/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3583361/",
+      "name": "San Salvador"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-salvador/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3583361/",
+        "name": "San Salvador"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3583096/",
+        "name": "Soyapango"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-salvador/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:san-salvador/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -89.104958,
+      "north": 13.782402,
+      "south": 13.629305,
+      "west": -89.319191
+    }
+  },
+  "continent": "North America",
+  "full_name": "San Salvador, El Salvador",
+  "is_government_partner": false,
+  "mayor": "Nayib Bukele",
+  "name": "San Salvador",
+  "slug": "san-salvador",
+  "teleport_city_url": "https://teleport.org/cities/san-salvador/",
+  "ua_id": "d42tf"
+}

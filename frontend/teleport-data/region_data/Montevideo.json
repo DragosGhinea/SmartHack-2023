@@ -1,0 +1,103 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montevideo/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UY/admin1_divisions/geonames:10/",
+        "name": "Montevideo"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UY/admin1_divisions/geonames:02/",
+        "name": "Canelones"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UY/admin1_divisions/geonames:16/",
+        "name": "San Jos\u00e9"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montevideo/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:SA/",
+      "name": "South America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:UY/",
+        "name": "Uruguay"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montevideo/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3441575/",
+      "name": "Montevideo"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montevideo/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3441575/",
+        "name": "Montevideo"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montevideo/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montevideo/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -56.000748,
+      "north": -34.684605,
+      "south": -34.942237,
+      "west": -56.445694
+    }
+  },
+  "continent": "South America",
+  "full_name": "Montevideo, Uruguay",
+  "is_government_partner": false,
+  "name": "Montevideo",
+  "slug": "montevideo",
+  "teleport_city_url": "https://teleport.org/cities/montevideo/",
+  "ua_id": "6cb13"
+}

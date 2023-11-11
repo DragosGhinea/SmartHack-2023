@@ -1,0 +1,104 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:charleston/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/admin1_divisions/geonames:SC/",
+        "name": "South Carolina"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:charleston/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/",
+        "name": "United States"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:charleston/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:4574324/",
+      "name": "Charleston"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:charleston/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4574324/",
+        "name": "Charleston"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4589387/",
+        "name": "North Charleston"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:4588165/",
+        "name": "Mount Pleasant"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:charleston/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:charleston/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -79.751816,
+      "north": 32.986204,
+      "south": 32.649782,
+      "west": -80.161057
+    }
+  },
+  "continent": "North America",
+  "full_name": "Charleston, South Carolina",
+  "is_government_partner": false,
+  "mayor": "John Tecklenburg",
+  "name": "Charleston",
+  "slug": "charleston",
+  "teleport_city_url": "https://teleport.org/cities/charleston/",
+  "ua_id": "djz4m"
+}

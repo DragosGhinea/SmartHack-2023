@@ -1,0 +1,103 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cairo/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:EG/admin1_divisions/geonames:11/",
+        "name": "Cairo"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:EG/admin1_divisions/geonames:08/",
+        "name": "Giza"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:EG/admin1_divisions/geonames:12/",
+        "name": "Qalyubia"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cairo/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AF/",
+      "name": "Africa"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:EG/",
+        "name": "Egypt"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cairo/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:360630/",
+      "name": "Cairo"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cairo/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:360630/",
+        "name": "Cairo"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cairo/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:cairo/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 31.544495,
+      "north": 30.227035,
+      "south": 29.907329,
+      "west": 30.853729
+    }
+  },
+  "continent": "Africa",
+  "full_name": "Cairo, Egypt",
+  "is_government_partner": false,
+  "name": "Cairo",
+  "slug": "cairo",
+  "teleport_city_url": "https://teleport.org/cities/cairo/",
+  "ua_id": "stq5p"
+}

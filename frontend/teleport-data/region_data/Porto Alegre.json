@@ -1,0 +1,96 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:porto-alegre/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:BR/admin1_divisions/geonames:23/",
+        "name": "Rio Grande do Sul"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:porto-alegre/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:SA/",
+      "name": "South America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:BR/",
+        "name": "Brazil"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:porto-alegre/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3452925/",
+      "name": "Porto Alegre"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:porto-alegre/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3452925/",
+        "name": "Porto Alegre"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:porto-alegre/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:porto-alegre/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -51.0562,
+      "north": -29.8978,
+      "south": -30.2612,
+      "west": -51.313
+    }
+  },
+  "continent": "South America",
+  "full_name": "Porto Alegre, Brazil",
+  "is_government_partner": false,
+  "mayor": "Jos\u00e9 Fortunati",
+  "name": "Porto Alegre",
+  "slug": "porto-alegre",
+  "teleport_city_url": "https://teleport.org/cities/porto-alegre/",
+  "ua_id": "6fet4"
+}

@@ -1,0 +1,108 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:guatemala-city/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:GT/admin1_divisions/geonames:07/",
+        "name": "Guatemala"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:GT/admin1_divisions/geonames:16/",
+        "name": "Sacatep\u00e9quez"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:guatemala-city/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:GT/",
+        "name": "Guatemala"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:guatemala-city/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:3598132/",
+      "name": "Guatemala City"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:guatemala-city/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3598132/",
+        "name": "Guatemala City"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3592519/",
+        "name": "Mixco"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:3587902/",
+        "name": "Villa Nueva"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:guatemala-city/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:guatemala-city/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -90.3893,
+      "north": 14.7417,
+      "south": 14.45,
+      "west": -90.7574
+    }
+  },
+  "continent": "North America",
+  "full_name": "Guatemala City, Guatemala",
+  "is_government_partner": false,
+  "mayor": "\u00c1lvaro Arz\u00fa",
+  "name": "Guatemala City",
+  "slug": "guatemala-city",
+  "teleport_city_url": "https://teleport.org/cities/guatemala-city/",
+  "ua_id": "9fxek"
+}

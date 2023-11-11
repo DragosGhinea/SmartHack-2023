@@ -1,0 +1,111 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:doha/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:QA/admin1_divisions/geonames:01/",
+        "name": "Balad\u012byat ad Daw\u1e29ah"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:QA/admin1_divisions/geonames:06/",
+        "name": "Balad\u012byat ar Rayy\u0101n"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:QA/admin1_divisions/geonames:10/",
+        "name": "Al Wakrah"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:QA/admin1_divisions/geonames:09/",
+        "name": "Balad\u012byat Umm \u015eal\u0101l"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:doha/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:AS/",
+      "name": "Asia"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:QA/",
+        "name": "Qatar"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:doha/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:290030/",
+      "name": "Doha"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:doha/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:290030/",
+        "name": "Doha"
+      },
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:289888/",
+        "name": "Ar Rayy\u0101n"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:doha/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:doha/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 51.628121,
+      "north": 25.442035,
+      "south": 25.139069,
+      "west": 51.315079
+    }
+  },
+  "continent": "Asia",
+  "full_name": "Doha, Qatar",
+  "is_government_partner": false,
+  "name": "Doha",
+  "slug": "doha",
+  "teleport_city_url": "https://teleport.org/cities/doha/",
+  "ua_id": "thkxu"
+}

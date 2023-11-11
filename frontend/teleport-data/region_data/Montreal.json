@@ -1,0 +1,108 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montreal/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:CA/admin1_divisions/geonames:10/",
+        "name": "Quebec"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:CA/admin1_divisions/geonames:08/",
+        "name": "Ontario"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/admin1_divisions/geonames:NY/",
+        "name": "New York"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montreal/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:NA/",
+      "name": "North America"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:CA/",
+        "name": "Canada"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:US/",
+        "name": "United States"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montreal/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:6077243/",
+      "name": "Montr\u00e9al"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montreal/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:6077243/",
+        "name": "Montr\u00e9al"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montreal/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:montreal/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": -72.723,
+      "north": 46.057,
+      "south": 44.968,
+      "west": -74.734
+    }
+  },
+  "continent": "North America",
+  "full_name": "Montreal, Canada",
+  "is_government_partner": false,
+  "mayor": "Denis Coderre",
+  "name": "Montreal",
+  "slug": "montreal",
+  "teleport_city_url": "https://teleport.org/cities/montreal/",
+  "ua_id": "f25dv"
+}
