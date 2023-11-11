@@ -1,5 +1,5 @@
 import React from 'react';
-import extractTextFromPDF from './processPDF'; 
+import extractTextFromPDF from '../api/processPDF'; 
 import { Button } from '@mui/material';
 import { styled } from '@mui/system';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
