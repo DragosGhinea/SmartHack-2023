@@ -1,9 +1,7 @@
-const url = "https://data.veridion.com/search/v1/companies";
-const apiKey = "pXStedvXkA9pMcNK1tWvx_4DesmTsIZ47qfTa6WkqFxgrCvCqJA0mpALQ53J";
+const url = "http://localhost:9098";
 
 const headers = {
-  "Content-Type": "application/json",
-  "x-api-key": apiKey,
+  "Content-Type": "application/json"
 };
 
 function buildRequestBody(keywords, locations) {
