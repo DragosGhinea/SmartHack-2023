@@ -3,8 +3,7 @@ export function filterCities(allCities, filters) {
   
     for (const city of allCities) {
         let isViable = true;
-        const scores = city.scores;
-  
+        const scores = city.scores[0];
         for (const [indexName, indexValue] of Object.entries(filters)) {
             if (scores[indexName] < indexValue) {
                 isViable = false;
