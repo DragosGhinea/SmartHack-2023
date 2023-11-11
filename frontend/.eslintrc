@@ -13,6 +13,6 @@
     },
     "plugins": ["react", "react-hooks", "material-ui"],
     "rules": {
-      
+      "react/prop-types": "off"
     }
 } 
