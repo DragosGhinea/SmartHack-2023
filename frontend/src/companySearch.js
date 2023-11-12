@@ -49,32 +49,16 @@ async function fetchData(body) {
   }
 }
 
-// keywords: Array<string>
-// locations: Array<{country: string, city?: string, region?: string}>
-export async function searchCompanies(keywords, locations) {
-  return fetchData(buildRequestBody(keywords, locations));
-}
-
-// cityScores: Array<{[scoreName]: number}>
-// companyKeywords: Array<string>
-export async function searchCompaniesWithCityScores(cityScores, companyKeywords) {
-  const filteredCities = filterAllCitiesByMinScores(cityScores);
-  filteredCities.sort((loc1, loc2) => loc2.overall_score - loc1.overall_score);
-  const topCities = filteredCities.slice(0, 10).map(({ name, country }) => { return { city: name, country } });
-
-  const fetchResult = await searchCompanies(companyKeywords, topCities);
-  const allCompanies = fetchResult.result;
-
-  // Group countries by country and city
+function groupCompaniesByLocation(companies, cities) {
   const grouped = {};
-  for (const loc of topCities) {
+  for (const loc of cities) {
     if (!(loc.country in grouped)) {
       grouped[loc.country] = {};
     }
     grouped[loc.country][loc.city] = [];
   }
 
-  for (const company of allCompanies) {
+  for (const company of companies) {
     for (const loc of company.locations) {
       if (loc.country in grouped && loc.city in grouped[loc.country]) {
         const companiesInCity = grouped[loc.country][loc.city];
@@ -97,4 +81,29 @@ export async function searchCompaniesWithCityScores(cityScores, companyKeywords)
   }
 
   return resultsByLocation;
+}
+
+// keywords: Array<string>
+// locations: Array<{country: string, city?: string, region?: string}>
+export async function searchCompanies(keywords, locations) {
+  return fetchData(buildRequestBody(keywords, locations));
+}
+
+// cityScores: Array<{[scoreName]: number}>
+// companyKeywords: Array<string>
+export async function searchCompaniesWithCityScores(cityScores, companyKeywords) {
+  const filteredCities = filterAllCitiesByMinScores(cityScores);
+  filteredCities.sort((loc1, loc2) => loc2.overall_score - loc1.overall_score);
+  const topCities = filteredCities.slice(0, 10).map(({ name, country }) => { return { city: name, country } });
+  
+  try {
+    const fetchResult = await searchCompanies(companyKeywords, topCities);
+    const allCompanies = fetchResult.result;
+
+    // Group countries by country and city
+    return groupCompaniesByLocation(allCompanies, topCities);
+  } catch (error) {
+    console.log("Error:", error.message);
+    throw error;
+  }
 }
