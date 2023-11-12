@@ -7449,4 +7449,16 @@ const cities = [
   }
 ];
 
-export default cities;
+function filterCitiesByMinScores(cities, minScores) {
+  return cities.filter(city => {
+    const scores = city.scores[0];
+
+    return Object.entries(minScores).every(([indexName, indexValue]) => scores[indexName] >= indexValue);
+  });
+}
+
+function filterAllCitiesByMinScores(minScores) {
+  return filterCitiesByMinScores(cities, minScores);
+}
+
+export { cities, filterCitiesByMinScores, filterAllCitiesByMinScores };

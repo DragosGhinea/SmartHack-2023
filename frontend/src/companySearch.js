@@ -1,5 +1,4 @@
-import { filterCities } from './filterCities';
-import cities from './cities';
+import { filterAllCitiesByMinScores } from './cities';
 
 const URL = "http://localhost:9098";
 
@@ -59,7 +58,7 @@ export async function searchCompanies(keywords, locations) {
 // cityScores: Array<{[scoreName]: number}>
 // companyKeywords: Array<string>
 export async function searchCompaniesWithCityScores(cityScores, companyKeywords) {
-  const filteredCities = filterCities(cities, cityScores);
+  const filteredCities = filterAllCitiesByMinScores(cityScores);
   filteredCities.sort((loc1, loc2) => loc2.overall_score - loc1.overall_score);
   const topCities = filteredCities.slice(0, 10).map(({ name, country }) => { return { city: name, country } });
 

@@ -13,7 +13,6 @@ HEADERS = {
 class MyProxy(http.server.SimpleHTTPRequestHandler):
     def do_POST(self):
         content_length = self.headers["Content-Length"]
-        print(content_length)
         data_string = self.rfile.read(int(content_length))
 
         response = requests.post(
@@ -29,6 +28,7 @@ class MyProxy(http.server.SimpleHTTPRequestHandler):
             self.send_error(500, str(e))
             return
 
+        self.headers.add_header("Access-Control-Allow-Origin", "*")
         self.end_headers()
         self.wfile.write(response.content)
 
