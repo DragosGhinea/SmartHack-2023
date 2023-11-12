@@ -39,14 +39,6 @@ function App() {
       flexDirection="column"
       gap="50px"
     >
-      {alertProblem && (
-        <Alert severity="warning" color="warning" sx = {{
-          position: 'absolute'
-        }}>
-            {alertProblem}
-        </Alert>
-      )
-      }
       <Typography variant="h3" component="h3" sx={{ marginTop: '50px' }}>
         WhileTrue Companies Explorer
       </Typography>
@@ -67,6 +59,12 @@ function App() {
         setLoadingResults(false);
         resultsList.current.scrollIntoView({ behavior: 'smooth' });
       }} />
+      {alertProblem && (
+        <Alert severity="warning" color="warning">
+            {alertProblem}
+        </Alert>
+      )
+      }
       <Container width="90%" ref={resultsList}>
         <ResultList results={results}/>
       </Container>
