@@ -19,12 +19,12 @@ export function LocationCard(props) {
 
 function SmallCompanyCard(props) {
     return (
-        <Box sx={{ border: 1, padding: 2.5, borderColor: "#bbb", borderRadius: 4 }}>
+        <Box sx={{ border: 1, padding: 1.5, borderColor: "#bbb", borderRadius: 4 }}>
             <Stack>
                 <Typography noWrap fontSize={18} fontWeight="bold" title={props.name}>
                     {props.name}
                 </Typography>
-                <p>{props.description}</p>
+                <Typography>{props.description}</Typography>
             </Stack>
         </Box>
     );

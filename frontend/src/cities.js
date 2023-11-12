@@ -7450,7 +7450,6 @@ const cities = [
 ];
 
 function filterCitiesByMinScores(cities, minScores) {
-  console.log(cities, minScores);
   return cities.filter(city => {
     const scores = city.scores[0];
 

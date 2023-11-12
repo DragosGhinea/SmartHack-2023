@@ -1,6 +1,6 @@
 import './App.css';
 import * as React from 'react';
-import { Box, Button, Typography } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 import InputForm from './input/InputForm';
 import PowerdBy from './poweredby/PowerdBy';
 import getIndustryKeywords from './api/openAI';
@@ -30,10 +30,12 @@ function App() {
         WhileTrue Companies Explorer
       </Typography>
       <InputForm onSubmit={async (preferences) => {
-        const results = await performSearch(preferences.pdfText, preferences.scores);
+        const results = await performSearch(preferences.pdfText + "\n" + preferences.describeYourself, preferences.scores);
         setResults(results);
       }} />
-      <ResultList results={results} />
+      <Container width="90%">
+        <ResultList results={results} />
+      </Container>
       <PowerdBy />
     </Box>
   );
