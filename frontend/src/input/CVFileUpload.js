@@ -47,7 +47,7 @@ const CVFileUpload = ({setPreferences}) => {
   return (
     <>
       <Button component="label" variant="contained" startIcon={<CloudUploadIcon />}>
-        Upload file
+        Upload CV PDF
         <VisuallyHiddenInput type="file" onChange={handleFileChange} />
       </Button>
       {pdfTitle && <Typography>Selected file: {pdfTitle}</Typography>}
