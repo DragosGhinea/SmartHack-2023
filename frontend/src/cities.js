@@ -7461,4 +7461,11 @@ function filterAllCitiesByMinScores(minScores) {
   return filterCitiesByMinScores(cities, minScores);
 }
 
-export { cities, filterCitiesByMinScores, filterAllCitiesByMinScores };
+async function getScoresByCityName(city_name) {
+  let city = cities.find((cityJson) => cityJson.name === city_name)
+  let scores = {...city.scores[0]};
+  scores['overall_score'] = city.overall_score
+  return scores;
+}
+
+export { cities, filterCitiesByMinScores, filterAllCitiesByMinScores, getScoresByCityName };

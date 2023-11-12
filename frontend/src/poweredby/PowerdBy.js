@@ -18,7 +18,8 @@ const PowerdBy = () => {
         alignItems="center"
         gap="30px"
         sx = {{
-          marginBottom: '50px'
+          marginBottom: '50px',
+          overflowX: 'auto'
         }}
       >
         <a href="https://veridion.com/">

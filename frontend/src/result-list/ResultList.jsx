@@ -7,7 +7,7 @@ export function ResultList(props) {
         <Stack spacing={2} borderRadius={50}>
             {
                 props.results.map((r, i) =>
-                    <LocationCard key={i} city={r.city} country={r.country} companies={r.companies} />
+                    <LocationCard key={i} city={r.city} country={r.country} companies={r.companies}/>
                 )
             }
         </Stack>
