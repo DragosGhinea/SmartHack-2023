@@ -1,6 +1,9 @@
-const url = "http://localhost:9098";
+import { filterCities } from './filterCities';
+import cities from './cities';
 
-const headers = {
+const URL = "http://localhost:9098";
+
+const HEADERS = {
   "Content-Type": "application/json"
 };
 
@@ -30,9 +33,9 @@ function buildRequestBody(keywords, locations) {
 
 async function fetchData(body) {
   try {
-    const response = await fetch(url, {
+    const response = await fetch(URL, {
       method: "POST",
-      headers: headers,
+      headers: HEADERS,
       body: JSON.stringify(body),
     });
 
@@ -51,4 +54,48 @@ async function fetchData(body) {
 // locations: Array<{country: string, city?: string, region?: string}>
 export async function searchCompanies(keywords, locations) {
   return fetchData(buildRequestBody(keywords, locations));
+}
+
+// cityScores: Array<{[scoreName]: number}>
+// companyKeywords: Array<string>
+export async function searchCompaniesWithCityScores(cityScores, companyKeywords) {
+  const filteredCities = filterCities(cities, cityScores);
+  filteredCities.sort((loc1, loc2) => loc2.overall_score - loc1.overall_score);
+  const topCities = filteredCities.slice(0, 10).map(({ name, country }) => { return { city: name, country } });
+
+  const fetchResult = await searchCompanies(companyKeywords, topCities);
+  const allCompanies = fetchResult.result;
+
+  // Group countries by country and city
+  const grouped = {};
+  for (const loc of topCities) {
+    if (!(loc.country in grouped)) {
+      grouped[loc.country] = {};
+    }
+    grouped[loc.country][loc.city] = [];
+  }
+
+  for (const company of allCompanies) {
+    for (const loc of company.locations) {
+      if (loc.country in grouped && loc.city in grouped[loc.country]) {
+        const companiesInCity = grouped[loc.country][loc.city];
+        if (companiesInCity.length > 0 && companiesInCity[companiesInCity.length - 1].company_name == company.company_name) {
+          // Deduplicate companies that have multiple locations in the same city
+          continue;
+        }
+        companiesInCity.push(company);
+      }
+    }
+  }
+
+  const resultsByLocation = [];
+  for (const [country, byCity] of Object.entries(grouped)) {
+    for (const [city, companies] of Object.entries(byCity)) {
+      if (companies.length > 0) {
+        resultsByLocation.push({ country, city, companies });
+      }
+    }
+  }
+
+  return resultsByLocation;
 }

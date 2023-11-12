@@ -17,7 +17,7 @@ class MyProxy(http.server.SimpleHTTPRequestHandler):
         data_string = self.rfile.read(int(content_length))
 
         response = requests.post(
-            "https://data.veridion.com/search/v1/companies",
+            "https://data.veridion.com/search/v1/companies?page_size=50",
             data=data_string,
             headers=HEADERS,
         )

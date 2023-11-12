@@ -20,8 +20,8 @@ export function LocationCard(props) {
 function SmallCompanyCard(props) {
     return (
         <Box sx={{ border: 1, padding: 2.5, borderColor: "#bbb", borderRadius: 4 }}>
-            <Stack direction="row" alignItems="center" spacing={2}>
-                <Typography noWrap fontSize={18} fontWeight="bold" width={100} title={props.name}>
+            <Stack>
+                <Typography noWrap fontSize={18} fontWeight="bold" title={props.name}>
                     {props.name}
                 </Typography>
                 <p>{props.description}</p>
