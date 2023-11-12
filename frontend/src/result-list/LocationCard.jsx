@@ -37,6 +37,9 @@ const LocationStats = (props) => {
         }
     </>
   };
+import React from 'react';
+import { Button, Box, Card, CardContent, Stack, Typography } from "@mui/material";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export function LocationCard(props) {
     return (
@@ -47,7 +50,7 @@ export function LocationCard(props) {
                 <h3 style={{ color: "gray" }}>Top companies</h3>
                 <Stack spacing={1}>
                     {props.companies.slice(0, 3).map((c, i) =>
-                        <SmallCompanyCard key={i} name={c.company_name} description={c.short_description} />
+                        <SmallCompanyCard key={i} name={c.company_name} description={c.short_description} linkedin={c.linkedin_url}/>
                     )}
                 </Stack>
             </CardContent>
@@ -57,13 +60,26 @@ export function LocationCard(props) {
 
 function SmallCompanyCard(props) {
     return (
-        <Box sx={{ border: 1, padding: 1.5, borderColor: "#bbb", borderRadius: 4 }}>
+        <Box sx={{ border: 1, padding: 2.5, borderColor: "#bbb", borderRadius: 4, display: 'flex', flexDirection: 'column', position: 'relative' }}>
             <Stack>
                 <Typography noWrap fontSize={18} fontWeight="bold" title={props.name}>
                     {props.name}
                 </Typography>
                 <Typography>{props.description}</Typography>
             </Stack>
+            <Button
+                    variant="contained"
+                    color="primary" 
+                    href={props.linkedin}
+                    startIcon={<LinkedInIcon style = {{width: '25px'}}/>}
+                    style={{
+                        width: '7%',
+                        fontSize: '12px', 
+                        padding: '8px 16px',
+                        alignSelf: 'flex-end'
+                      }}>
+                LinkedIn
+            </Button>
         </Box>
     );
 }

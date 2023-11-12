@@ -31,21 +31,3 @@ export async function getIndustryKeywords(inputContent) {
 }
 
 export default getIndustryKeywords;
-
-// // Assuming you have a function to read PDF content in JavaScript
-// // You can replace the following line with your own PDF reading logic
-// const pdfContent = "Your PDF content here";
-
-// getIndustryKeywords(pdfContent)
-//     .then(industryKeywordsResponse => {
-//         const responseData = {
-//             industryKeywordResponse: industryKeywordsResponse,
-//         };
-
-//         const outputFilePath = 'response.json';
-//         const fs = require('fs');
-//         fs.writeFileSync(outputFilePath, JSON.stringify(responseData, null, 2));
-
-//         console.log(industryKeywordsResponse);
-//     })
-//     .catch(error => console.error('Error:', error.message));
