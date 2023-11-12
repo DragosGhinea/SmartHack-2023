@@ -2,13 +2,13 @@ import React, { useRef } from 'react'
 import ScoreSlider from './ScoreSlider'
 import { Box, Button } from '@mui/material'
 
-const RegionPreferences = () => {
+const RegionPreferences = ({setPreferences}) => {
   const advancedFiltersBox = useRef();
 
   const toggleAdvancedFiltersBox = () => {
     const boxElement = advancedFiltersBox.current;
   
-    if (boxElement.style.display === 'flex' || boxElement.style.display === '') {
+    if (boxElement.style.display === 'flex') {
       boxElement.style.display = 'none';
     } else {
       boxElement.style.display = 'flex';
@@ -30,11 +30,11 @@ const RegionPreferences = () => {
                 justifyContent: 'space-around'
                 }}
             >
-                <ScoreSlider name="Cost of Living" tooltip="Price of average consumer basket."/>
-                <ScoreSlider name="Education" tooltip="Best local university, average student results."/>
-                <ScoreSlider name="Safety" tooltip="Crime rate, guns per capita."/>
-                <ScoreSlider name="Outdoors" tooltip="Presence of hills, mountains and water access."/>
-                <ScoreSlider name="Environmental Quality" tooltip="Cleanliness, air and water quality."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Cost of Living" tooltip="Price of average consumer basket."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Education" tooltip="Best local university, average student results."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Safety" tooltip="Crime rate, guns per capita."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Outdoors" tooltip="Presence of hills, mountains and water access."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Environmental Quality" tooltip="Cleanliness, air and water quality."/>
             </Box>
 
             <Button 
@@ -51,18 +51,18 @@ const RegionPreferences = () => {
                 justifyContent: 'space-around'
                 }}
             >
-                <ScoreSlider name="Economy" tooltip="GDP per capita, growth rate."/>
-                <ScoreSlider name="Housing" tooltip="Average rent price per month."/>
-                <ScoreSlider name="Startups" tooltip="Presence of new startups, investors and events."/>
-                <ScoreSlider name="Venture Capital" tooltip="Venture capital."/> 
-                <ScoreSlider name="Travel Connectivity" tooltip="Connection to trains and airports."/>
-                <ScoreSlider name="Commute" tooltip="Quality of traffic."/> 
-                <ScoreSlider name="Businenss Freedom" tooltip="Business freedom from corruption."/>
-                <ScoreSlider name="Healthcare" tooltip="Healthcare quality and life expectancy."/> 
-                <ScoreSlider name="Taxation" tooltip="Taxation."/>
-                <ScoreSlider name="Internet Access" tooltip="Internet download and upload speed."/>
-                <ScoreSlider name="Leisure & Culture" tooltip="Museums, cinemas, galleries, concerts etc."/> 
-                <ScoreSlider name="Tolerance" tooltip="Acceptance of minorities, LGBT rights."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Economy" tooltip="GDP per capita, growth rate."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Housing" tooltip="Average rent price per month."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Startups" tooltip="Presence of new startups, investors and events."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Venture Capital" tooltip="Venture capital."/> 
+                <ScoreSlider setPreferences = {setPreferences} name="Travel Connectivity" tooltip="Connection to trains and airports."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Commute" tooltip="Quality of traffic."/> 
+                <ScoreSlider setPreferences = {setPreferences} name="Businenss Freedom" tooltip="Business freedom from corruption."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Healthcare" tooltip="Healthcare quality and life expectancy."/> 
+                <ScoreSlider setPreferences = {setPreferences} name="Taxation" tooltip="Taxation."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Internet Access" tooltip="Internet download and upload speed."/>
+                <ScoreSlider setPreferences = {setPreferences} name="Leisure & Culture" tooltip="Museums, cinemas, galleries, concerts etc."/> 
+                <ScoreSlider setPreferences = {setPreferences} name="Tolerance" tooltip="Acceptance of minorities, LGBT rights."/>
             </Box>
         </Box>
     </>

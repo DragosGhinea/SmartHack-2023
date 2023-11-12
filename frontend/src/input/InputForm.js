@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import RegionPreferences from './RegionPreferences'
 import CVPreferences from './CVPreferences'
-import { Box, Divider } from '@mui/material'
+import { Box, Button, Divider } from '@mui/material'
 
-const InputForm = () => {
+const InputForm = ({onSubmit}) => {
+  const [preferences, setPreferences] = useState({})
+  
+
   return (
     <>
         <Box
@@ -11,10 +14,11 @@ const InputForm = () => {
             flexDirection="column"
             alignItems="center"
         >
-            <CVPreferences />
+            <CVPreferences setPreferences={setPreferences}/>
             <Divider variant="middle" sx = {{width: '100%', margin: '20px'}}/>
-            <RegionPreferences />
+            <RegionPreferences setPreferences={setPreferences}/>
             <Divider variant="middle" sx = {{width: '100%', margin: '10px'}}/>
+            <Button onClick = {() => onSubmit(preferences)} variant="contained" color="success" size="large">Start searching</Button>
         </Box>
     </>
   )

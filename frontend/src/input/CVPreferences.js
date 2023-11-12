@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import CVFileUpload from './CVFileUpload'
 import { TextField } from '@mui/material'
 
-const CVPreferences = () => {
+const CVPreferences = ({setPreferences}) => {
+  const updateDescribeYourself = (event) => {
+    setPreferences((prevPreferences) => ({
+      ...prevPreferences,
+      describeYourself: event.target.value,
+    }));
+  }
+
   return (
     <>
-        <CVFileUpload />
+        <CVFileUpload setPreferences = {setPreferences}/>
         <TextField
         id="outlined-multiline-flexible"
         label="Describe yourself"
@@ -14,6 +21,7 @@ const CVPreferences = () => {
         sx = {{
             marginTop: "20px"
         }}
+        onChange={updateDescribeYourself}
       />
     </>
   )

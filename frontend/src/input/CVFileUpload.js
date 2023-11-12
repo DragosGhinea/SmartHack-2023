@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import extractTextFromPDF from '../api/processPDF'; 
-import { Button } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 import { styled } from '@mui/system';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 
@@ -16,13 +16,28 @@ const VisuallyHiddenInput = styled('input')({
   width: 1,
 });
 
-const CVFileUpload = () => {
+const CVFileUpload = ({setPreferences}) => {
+  const [pdfTitle, setPdfTitle] = useState()
+
   const handleFileChange = (event) => {
     const file = event.target.files[0];
+    if (file === undefined){
+      setPdfTitle(undefined)
+      setPreferences((prevPreferences) => ({
+        ...prevPreferences,
+        pdfText: undefined,
+      }));
+      return;
+    }
+
+    setPdfTitle(file.name)
 
     extractTextFromPDF(file)
       .then((text) => {
-        console.log('Text extracted from the PDF:', text);
+        setPreferences((prevPreferences) => ({
+          ...prevPreferences,
+          pdfText: text,
+        }));
       })
       .catch((error) => {
         console.error('Error extracting text:', error);
@@ -35,6 +50,7 @@ const CVFileUpload = () => {
         Upload file
         <VisuallyHiddenInput type="file" onChange={handleFileChange} />
       </Button>
+      {pdfTitle && <Typography>Selected file: {pdfTitle}</Typography>}
     </>
   );
 };

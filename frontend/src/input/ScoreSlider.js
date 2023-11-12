@@ -4,14 +4,25 @@ import Slider from '@mui/material/Slider';
 import { Tooltip, Typography } from '@mui/material';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 
-const ScoreSlider = ({name, tooltip}) => {
-    
+const ScoreSlider = ({setPreferences, name, tooltip}) => {
+    const [value, setValue] = React.useState(0);
+
+    const handleChange = (event, newValue) => {
+      setValue(newValue);
+      setPreferences((prevPreferences) => ({
+        ...prevPreferences,
+        scores: {
+          ...prevPreferences.scores,
+          [name]: newValue
+        }
+      }));
+    };
 
   return (
     <>
     <Box sx={{ width: 300 }}>
         <Box display="flex" alignItems="center">
-            <Typography>{name}</Typography>
+            <Typography>{name} ({value}+)</Typography>
             {tooltip && <Tooltip title={tooltip}><InfoOutlinedIcon fontSize='small' sx={{ marginLeft: 1 }} /></Tooltip>}
         </Box>
         <Slider
@@ -22,6 +33,7 @@ const ScoreSlider = ({name, tooltip}) => {
             defaultValue={0}
             aria-label="Small"
             valueLabelDisplay="auto"
+            onChange={handleChange}
         />
     </Box>
     </>
