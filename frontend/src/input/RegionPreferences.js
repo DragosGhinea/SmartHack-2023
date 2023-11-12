@@ -45,7 +45,7 @@ const RegionPreferences = () => {
             
             <Box ref={advancedFiltersBox}
                 sx={{
-                display: 'flex',
+                display: 'none',
                 flexWrap: 'wrap',
                 maxWidth: 800,
                 justifyContent: 'space-around'

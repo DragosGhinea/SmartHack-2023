@@ -1,23 +1,25 @@
 import './App.css';
 import * as React from 'react';
-import { Box } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
 import InputForm from './input/InputForm';
+import PowerdBy from './poweredby/PowerdBy';
 
 
 function App() {
   return (
       <Box
         display="flex"
-        justifyContent="center"
         alignItems="center"
         minHeight="100vh"
+        flexDirection="column"
+        gap="50px"
       >
+        <Typography variant="h3" component="h3" sx = {{marginTop: '50px'}}>
+          WhileTrue Companies Explorer
+        </Typography>
         <InputForm />
-      {/* <Stack spacing={3} direction="row">
-        <Button variant="text">Text</Button>
-        <Button variant="contained">Contained</Button>
-        <Button variant="outlined">Outlined</Button>
-      </Stack> */}
+        <Button variant="contained" color="success" size="large">Start searching</Button>
+        <PowerdBy />
     </Box>
   );
 }
