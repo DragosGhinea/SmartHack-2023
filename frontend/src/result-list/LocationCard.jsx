@@ -8,7 +8,7 @@ export function LocationCard(props) {
                 <h2>{props.city}, {props.country}</h2>
                 <h3 style={{ color: "gray" }}>Top companies</h3>
                 <Stack spacing={1}>
-                    {props.companies.map((c, i) =>
+                    {props.companies.slice(0, 3).map((c, i) =>
                         <SmallCompanyCard key={i} name={c.company_name} description={c.short_description} />
                     )}
                 </Stack>

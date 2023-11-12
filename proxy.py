@@ -28,9 +28,21 @@ class MyProxy(http.server.SimpleHTTPRequestHandler):
             self.send_error(500, str(e))
             return
 
-        self.headers.add_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Origin", "*")
         self.end_headers()
         self.wfile.write(response.content)
+
+    def do_OPTIONS(self):
+        self.send_response(200, "OK")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "X-Requested-With")
+        self.send_header("Access-Control-Allow-Credentials", "true")
+        self.send_header(
+            "Access-Control-Allow-Headers",
+            "Content-Type, Depth, User-Agent, X-File-Size, X-Requested-With, If-Modified-Since, X-File-Name, Cache-Control",
+        )
+        self.end_headers()
 
 
 httpd = socketserver.TCPServer(("", PORT), MyProxy)
