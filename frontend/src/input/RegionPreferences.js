@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import ScoreSlider from './ScoreSlider'
-import { Box, Button } from '@mui/material'
+import { Box, Button, Typography } from '@mui/material'
 
 const RegionPreferences = ({setPreferences}) => {
   const advancedFiltersBox = useRef();
@@ -22,6 +22,7 @@ const RegionPreferences = ({setPreferences}) => {
             alignItems="center"
             flexDirection="column"
         >
+            <Typography variant="h4" mb={5}>Select some city regional filters</Typography>
             <Box
                 sx={{
                 display: 'flex',
