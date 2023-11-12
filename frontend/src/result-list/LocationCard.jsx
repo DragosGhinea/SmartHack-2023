@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Button, Card, CardContent, Stack, Typography } from "@mui/material";
 import { getScoresByCityName } from '../cities'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LanguageIcon from '@mui/icons-material/Language';
 
 const LocationStats = (props) => {
     const [scores, setScores] = useState(null);
@@ -37,9 +39,6 @@ const LocationStats = (props) => {
         }
     </>
   };
-import React from 'react';
-import { Button, Box, Card, CardContent, Stack, Typography } from "@mui/material";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export function LocationCard(props) {
     return (
@@ -50,7 +49,7 @@ export function LocationCard(props) {
                 <h3 style={{ color: "gray" }}>Top companies</h3>
                 <Stack spacing={1}>
                     {props.companies.slice(0, 3).map((c, i) =>
-                        <SmallCompanyCard key={i} name={c.company_name} description={c.short_description} linkedin={c.linkedin_url}/>
+                        <SmallCompanyCard key={i} name={c.company_name} description={c.short_description} linkedin={c.linkedin_url} website={c.website_url}/>
                     )}
                 </Stack>
             </CardContent>
@@ -67,19 +66,37 @@ function SmallCompanyCard(props) {
                 </Typography>
                 <Typography>{props.description}</Typography>
             </Stack>
-            <Button
-                    variant="contained"
-                    color="primary" 
-                    href={props.linkedin}
-                    startIcon={<LinkedInIcon style = {{width: '25px'}}/>}
-                    style={{
-                        width: '7%',
-                        fontSize: '12px', 
-                        padding: '8px 16px',
-                        alignSelf: 'flex-end'
-                      }}>
-                LinkedIn
-            </Button>
+            <div style = {{marginTop: '20px', display: 'flex', justifyContent: 'space-around'}}>
+                {props.website && <Button
+                                        variant="contained"
+                                        color="success"
+                                        target="_blank"
+                                        href={props.website}
+                                        startIcon={<LanguageIcon style = {{width: '25px'}}/>}
+                                        style={{
+                                            width: '15%',
+                                            fontSize: '12px', 
+                                            padding: '8px 16px',
+                                        }}>
+                                    Website
+                                </Button>
+                }
+
+                {props.linkedin && <Button
+                                        variant="contained"
+                                        color="primary"
+                                        target="_blank"
+                                        href={props.linkedin}
+                                        startIcon={<LinkedInIcon style = {{width: '25px'}}/>}
+                                        style={{
+                                            width: '15%',
+                                            fontSize: '12px', 
+                                            padding: '8px 16px',
+                                        }}>
+                                    LinkedIn
+                                </Button>
+                }
+            </div>
         </Box>
     );
 }
