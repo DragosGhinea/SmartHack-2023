@@ -22,7 +22,8 @@ const RegionPreferences = ({setPreferences}) => {
             alignItems="center"
             flexDirection="column"
         >
-            <Typography variant="h4" mb={5}>Select some city regional filters</Typography>
+            <Typography variant="h4">Select some city regional filters</Typography>
+            <Typography variant="h5" mb={5}>Worst 0 - 10 Best</Typography>
             <Box
                 sx={{
                 display: 'flex',
