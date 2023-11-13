@@ -38,9 +38,9 @@ For the implementation of this idea, we only built a frontend using React with M
 ![FlowDiagram](https://github.com/DragosGhinea/SmartHack-2023/blob/main/FlowDiagram.svg)
 
 
-As you can see in the above diagram, we take two type of inputs from the user.
+As you can see in the above diagram, we take two types of input from the user.
 
-**Professional and personal information** - An uploaded CV and a personal description, or even a proffesional one, that can be an addition or a substitute for the CV.
+**Professional and personal information** - An uploaded CV and a personal description, or even a professional one, that can be an addition or a substitute for the CV.
 
 **Life quality data** - Through sliders with scores from 0-10 we let the user set preferences for how much a property that the slider expresses is of importance to them. 0 meaning that the user doesn't really care and 10 being of maximum importance for the person.
 
